@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mateus.maturana\\Documents\\Hackathon\\Hackathon.Core\\Hackathon.Core.csproj": {}
+    "C:\\Users\\mateus.maturana\\Documents\\Hackathon\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mateus.maturana\\Documents\\Hackathon\\Hackathon.Core\\Hackathon.Core.csproj": {
+    "C:\\Users\\mateus.maturana\\Documents\\Hackathon\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mateus.maturana\\Documents\\Hackathon\\Hackathon.Core\\Hackathon.Core.csproj",
-        "projectName": "Hackathon.Core",
-        "projectPath": "C:\\Users\\mateus.maturana\\Documents\\Hackathon\\Hackathon.Core\\Hackathon.Core.csproj",
+        "projectUniqueName": "C:\\Users\\mateus.maturana\\Documents\\Hackathon\\API\\API.csproj",
+        "projectName": "API",
+        "projectPath": "C:\\Users\\mateus.maturana\\Documents\\Hackathon\\API\\API.csproj",
         "packagesPath": "C:\\Users\\mateus.maturana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mateus.maturana\\Documents\\Hackathon\\Hackathon.Core\\obj\\",
+        "outputPath": "C:\\Users\\mateus.maturana\\Documents\\Hackathon\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -44,6 +44,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -56,6 +62,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
