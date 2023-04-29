@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Leonardo.Zanaro\\source\\repos\\Hackathon-RED\\Hackathon.Core\\Hackathon.Core.csproj": {}
+    "C:\\Users\\mateus.maturana\\Documents\\Hackathon\\Hackathon.Core\\Hackathon.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Leonardo.Zanaro\\source\\repos\\Hackathon-RED\\Hackathon.Core\\Hackathon.Core.csproj": {
+    "C:\\Users\\mateus.maturana\\Documents\\Hackathon\\Hackathon.Core\\Hackathon.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Leonardo.Zanaro\\source\\repos\\Hackathon-RED\\Hackathon.Core\\Hackathon.Core.csproj",
+        "projectUniqueName": "C:\\Users\\mateus.maturana\\Documents\\Hackathon\\Hackathon.Core\\Hackathon.Core.csproj",
         "projectName": "Hackathon.Core",
-        "projectPath": "C:\\Users\\Leonardo.Zanaro\\source\\repos\\Hackathon-RED\\Hackathon.Core\\Hackathon.Core.csproj",
-        "packagesPath": "C:\\Users\\Leonardo.Zanaro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Leonardo.Zanaro\\source\\repos\\Hackathon-RED\\Hackathon.Core\\obj\\",
+        "projectPath": "C:\\Users\\mateus.maturana\\Documents\\Hackathon\\Hackathon.Core\\Hackathon.Core.csproj",
+        "packagesPath": "C:\\Users\\mateus.maturana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mateus.maturana\\Documents\\Hackathon\\Hackathon.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Leonardo.Zanaro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mateus.maturana\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,7 +25,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\Leonardo.Zanaro\\Documents\\GitHub\\GamaASPNet\\G2Solution\\G2.Base.Infrastructure\\Assemblies": {},
+          "C:\\Users\\mateus.maturana\\Documents\\GamaASPNet\\G2Solution\\G2.Base.Infrastructure\\Assemblies": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://nuget.devexpress.com/u8vi7xJw7bbYrWXF5KoT8aGb1ldWgvz1JPZUaoo2dhffJBMjHU/api": {}
         },
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
