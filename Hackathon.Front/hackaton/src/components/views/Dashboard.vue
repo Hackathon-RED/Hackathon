@@ -38,8 +38,8 @@
             </div>
         </div>
 
-        <div class="card" style="width: 40%;">
-            
+        <div class="card" style="width: 40%; height: 350px;">
+            <BarChart></BarChart>
         </div>
         <div class="card" style="width: 50%; height: 350px;">
             <div class="w-100 h-100" style="display: flex; flex-direction: column;">
@@ -120,6 +120,100 @@
                 </div>
             </div>
         </div>
+        <div class="card" style="width: 40%; height: 350px;">
+            <PieChart></PieChart>
+        </div>
+        <div class="card" style="width: 50%; height: 350px;">
+            <div class="w-100 h-100" style="display: flex; flex-direction: column;">
+                <div style="height: 15%;">
+                    <h3 style="color: #005438;">Últimas Doações</h3>
+                </div>
+                <div class="lista-solicitacoes">
+                    <ul>
+                       <li>
+                        <div style="display: flex; justify-content: space-between; align-items: center; background-color: #b2cbc3; border-radius: 15px; padding: 5px 15px;">
+                            <div style="display: flex; color: #005438;">
+                                <div style="max-width: 100px; display: flex; justify-content: center; align-items: center;">
+                                    <i style="font-size: 1.5em;" class="fas fa-user"></i>    
+                                </div>
+                                <div style="margin-left: 15px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                                    <h4 style="margin: 0;">Maurício da Silva</h4>
+                                    <small>Doação</small>
+                                </div>
+                            </div>
+                            <div style="margin-right: 15px;">
+                                <span style="color: #005438; font-weight: bold;">R$ 108,00 <i class="fa-solid fa-angles-up"></i></span>
+                            </div>
+                        </div>
+                       </li>
+                       <li>
+                        <div style="display: flex; justify-content: space-between; align-items: center; background-color: #b2cbc3; border-radius: 15px; padding: 5px 15px;">
+                            <div style="display: flex; color: #005438;">
+                                <div style="max-width: 100px; display: flex; justify-content: center; align-items: center;">
+                                    <i style="font-size: 1.5em;" class="fas fa-user"></i>    
+                                </div>
+                                <div style="margin-left: 15px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                                    <h4 style="margin: 0;">Joaquina de Deus</h4>
+                                    <small>Doação</small>
+                                </div>
+                            </div>
+                            <div style="margin-right: 15px;">
+                                <span style="color: #005438; font-weight: bold;">R$ 13,00 <i class="fa-solid fa-angles-up"></i></span>
+                            </div>
+                        </div>
+                       </li>
+                       <li>
+                        <div style="display: flex; justify-content: space-between; align-items: center; background-color: #b2cbc3; border-radius: 15px; padding: 5px 15px;">
+                            <div style="display: flex; color: #005438;">
+                                <div style="max-width: 100px; display: flex; justify-content: center; align-items: center;">
+                                    <i style="font-size: 1.5em;" class="fas fa-user"></i>    
+                                </div>
+                                <div style="margin-left: 15px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                                    <h4 style="margin: 0;">Mauro Makao</h4>
+                                    <small>Doação</small>
+                                </div>
+                            </div>
+                            <div style="margin-right: 15px;">
+                                <span style="color: #005438; font-weight: bold;">R$ 29,00 <i class="fa-solid fa-angles-up"></i></span>
+                            </div>
+                        </div>
+                       </li>
+                       <li>
+                        <div style="display: flex; justify-content: space-between; align-items: center; background-color: #ddb4b3; border-radius: 15px; padding: 5px 15px;">
+                            <div style="display: flex; color: #900603">
+                                <div style="max-width: 100px; display: flex; justify-content: center; align-items: center;">
+                                    <i style="font-size: 1.5em;" class="fas fa-user"></i>    
+                                </div>
+                                <div style="margin-left: 15px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                                    <h4 style="margin: 0;">Come e Lambe LTDA</h4>
+                                    <small>Pagamento Ração</small>
+                                </div>
+                            </div>
+                            <div style="margin-right: 15px;">
+                                <span style="color: #900603; font-weight: bold;">R$ 2000,00 <i class="fa-solid fa-angles-down"></i></span>
+                            </div>
+                        </div>
+                       </li>
+                       <li>
+                        <div style="display: flex; justify-content: space-between; align-items: center; background-color: #b2cbc3; border-radius: 15px; padding: 5px 15px;">
+                            <div style="display: flex; color: #005438;">
+                                <div style="max-width: 100px; display: flex; justify-content: center; align-items: center;">
+                                    <i style="font-size: 1.5em;" class="fas fa-user"></i>    
+                                </div>
+                                <div style="margin-left: 15px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                                    <h4 style="margin: 0;">Fernanda de Sá</h4>
+                                    <small>Doação</small>
+                                </div>
+                            </div>
+                            <div style="margin-right: 15px;">
+                                <span style="color: #005438; font-weight: bold;">R$ 59,90 <i class="fa-solid fa-angles-up"></i></span>
+                            </div>
+                        </div>
+                       </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
         </div>
     </div>
 </template>
@@ -130,7 +224,7 @@
 }
 
 .h-100 {
-    width: 100%;
+    height: 100%;
 }
 .fa-venus {
     color: #E75480;
@@ -153,7 +247,7 @@
     align-items: center;
     justify-content: center;
     height: 100px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .card h3 {
@@ -200,3 +294,11 @@
 }
 
 </style>
+
+<script>
+import BarChart from './../BarGraph.vue'
+import PieChart from './../PieGraph.vue'
+export default {
+  components: { BarChart, PieChart }
+}
+</script>
