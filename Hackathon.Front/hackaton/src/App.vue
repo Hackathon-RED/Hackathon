@@ -21,7 +21,7 @@ import 'font-awesome/css/font-awesome.css'
           <router-link to="/perfil"> <i class="fa-solid fa-user icon-dash"></i>Perfil</router-link>
         </li>
         <li>
-          <router-link to="/adocao"><img class="icon-doacao" src="./assets/adocao.svg"/>Adoções</router-link>
+          <router-link to="/adocao"><img class="icon-doacao" src="./assets/adocao.svg" id="icon-donate"/>Adoções</router-link>
         </li>
         <li>
           <router-link to="/cadastro-vet"><i class="fa fa-user-md icon-dash"/>Veterinários</router-link>
@@ -45,11 +45,14 @@ import 'font-awesome/css/font-awesome.css'
 
 <style scoped>
 
+#icon-donate{
+
+}
 
  .icon-doacao{
   width: 20px;
   padding-right: 1rem;
-
+  filter: invert(1);
  }
 
 .icon-dash{
