@@ -1,6 +1,6 @@
 <template>
     <div class="card-cadastro">
-      <i class="fa fa-paw icones"/>
+      <i class="fa fa-user-md icones"/>
       <div class="title-cadastro">
           CADASTRO DE VETERINÁRIO
         </div>
@@ -84,9 +84,7 @@
 
 <style scoped>
 .icones{
-  color: white;
-  height: 1rem;
-  width: 1rem;
+  font-size: 50px;
 }
 
 .title-cadastro{
@@ -106,7 +104,7 @@
     align-items: flex-start;
     }
 .card-cadastro{
-  background: #005438;
+  background: white;
     display: flex;
     border-radius: 5px;
     padding: 1rem;
@@ -120,7 +118,6 @@
     text-decoration: none;
   font-weight: bold;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: white;
 }
 
 </style>

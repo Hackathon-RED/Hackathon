@@ -34,7 +34,13 @@ import 'font-awesome/css/font-awesome.css'
           <router-link to="/profile">Adoções</router-link>
         </li>
         <li>
-          <router-link to="/cadastro-vet">Veterinários</router-link>
+          <router-link to="/cadastro-vet"><i class="fa fa-user-md icon-dash"/>Veterinários</router-link>
+        </li>
+        <li>
+          <router-link to="/cadastro-pet"><i class="fa fa-paw icon-dash"/>Pets</router-link>
+        </li>
+        <li>
+          <router-link to="/cadastro-user"><i class="fa fa-user icon-dash"/>Usuários</router-link>
         </li>
       </ul>
     </div>
@@ -45,6 +51,10 @@ import 'font-awesome/css/font-awesome.css'
 </template>
 
 <style scoped>
+
+.icon-dash{
+  padding-right: 1rem;
+}
 
 #nav {
   display: flex;

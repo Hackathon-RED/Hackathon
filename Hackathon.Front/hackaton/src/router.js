@@ -21,6 +21,16 @@ const routes = [
     path: '/cadastro-vet',
     name: 'cadastro-vet',
     component: CadastroVer
+  },
+  {
+    path: '/cadastro-pet',
+    name: 'cadastro-pet',
+    component: CadastroPet
+  },
+  {
+    path: '/cadastro-user',
+    name: 'cadastro-user',
+    component: CadastroUsuario
   }
 ]
 
