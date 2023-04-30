@@ -6,48 +6,37 @@
         </div>
         <div class="teste">
           <div>
-
             <input placeholder="Nome" class="input"/>
           </div>
           <div>
-
             <input placeholder="Sobrenome" class="input"/>
           </div>
           <div>
-
             <input placeholder="RG" class="input" maxlength="9"/>
           </div>
           <div>
-            
             <input placeholder="Orgão Emissor" class="input"/>
           </div>
           <div>
-
             <input placeholder="Cpf" class="input"/>
           </div>
           <div>
-
             <input placeholder="Endereço" class="input"/>
           </div>
           <div>
-
             <input placeholder="Complemento" class="input"/>
           </div>
           <div>
             <div>
-
             <input placeholder="Numero" class="input"/>
           </div>
           </div>
             <div>
-
             <input placeholder="Cidade" class="input"/>
           </div>
             <div>
-
             <input placeholder="CEP" class="input"/>
           </div>
-          
         </div>
         <div class="btn">    
             <button class="btn-cancelar">CANCELAR</button>

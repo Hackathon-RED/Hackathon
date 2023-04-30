@@ -1,14 +1,15 @@
 <template>
     <div class="card-cadastro">
-      <div class="title-cadastro">
-         <i class="fa fa-paw icones"/>
-         CADASTRO DE PETS
-       </div>
+      <div>
+
+        <div class="title-cadastro">
+          <i class="fa fa-paw icones"/>
+          CADASTRO DE PETS
+        </div>
         <div class="teste">
-            Foto do Pet
-            <div>
+          <div class="aaaaaa">
               <input class="input-file" name="file" id="file" type="file"/>
-              <label class="input-filee" for="file">Choose a file</label>
+              <label class="input-filee" for="file">Insira a foto do Pet</label>
             </div>
           <div>
             <input placeholder="Nome do Pet" class="input"/>
@@ -26,7 +27,7 @@
             <input placeholder="Raça" class="input"/>
           </div>
           <div>
-            <select class="input" id="cars">
+            <select class="input" >
               <option value="">Selecione um porte</option>
               <option value="pequeno">Pequeno</option>
               <option value="medio">Médio</option>
@@ -36,18 +37,17 @@
 
           <div>
             Data de Nascimento:
+            <input class="input" type="date"/>
           </div>
-          <input class="input" type="date"/>
-          Sexo do Animal
           <div class="radio-btn">
-              <label for="huey">Masculino
-                  <input type="radio" id="masc" name="SEXO" value="masc"/>
-              </label>
+            Sexo do Animal
+            <label for="huey">Masculino
+              <input type="radio" id="masc" name="SEXO" value="masc"/>
+            </label>
               <label for="huey">Feminino
                   <input type="radio" id="fem" name="SEXO" value="fem"/>
               </label>
-          </div>
-
+            </div>
           <div>
             É Castrado?
             <input class="input" type="checkbox"/>
@@ -56,14 +56,13 @@
             É Vacinado?
             <input class="input" type="checkbox"/>
           </div>
-          
-          
         </div>
         <div class="btn">    
-            <button class="btn-cancelar">CANCELAR</button>
-            <button class="btn-salvar">SALVAR</button>
+          <button class="btn-cancelar">CANCELAR</button>
+          <button class="btn-salvar">SALVAR</button>
         </div>
-    </div>
+      </div>
+      </div>
 </template>
 
 <script>
@@ -72,6 +71,7 @@
 </script>
 
 <style scoped>
+
 
 .input-filee{
   cursor:pointer;
@@ -116,13 +116,13 @@
   font-size: 50px;
 }
 .radio-btn {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
     gap: 3rem;
     }
-
-.btn{
+    
+    .btn{
   margin-top: 1rem;
   display: flex;
   gap: 1rem;
@@ -130,11 +130,11 @@
 
 .card-cadastro{
   background: white;
-    display: flex;
-    border-radius: 5px;
-    padding: 1rem;
-    flex-direction: column;
-
+  display: flex;
+  border-radius: 5px;
+  padding: 1rem;
+  flex-direction: column;
+  
 }
 
 .title-cadastro{
@@ -143,23 +143,27 @@
         align-items: center;
         gap: 1rem;
     }
-
-.title-cadastro{
-    font-size: 25px ;
-    text-decoration: none;
-  font-weight: bold;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.teste {
-  gap: 1rem;
-    display: flex;
-    font-size: 15px;
-    text-decoration: none;
-    font-weight: bold;
+    
+    .title-cadastro{
+      font-size: 25px ;
+      text-decoration: none;
+      font-weight: bold;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .teste {
+      gap: 1rem;
+      display: flex;
+      font-size: 15px;
+      text-decoration: none;
+      font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    flex-direction: column;
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 
+.aaaaaa{
+  display: flex;
+    flex-direction: column;
+}
 </style>
 
