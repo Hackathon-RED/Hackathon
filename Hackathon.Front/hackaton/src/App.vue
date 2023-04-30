@@ -1,7 +1,7 @@
 <script setup>
 import CadastroPet from './components/views/CadastroPet.vue'
 import CadastroUsuario from './components/views/CadastroUsuario.vue'
-import CadastroOng from './components/views/CadastroOng.vue'
+import CadastroOng from './components/views/Perfil.vue'
 import CadastroVet from './components/views/CadastroVet.vue'
 import ListaAdocao from './components/views/ListaAdocao.vue'
 import { RouterView } from 'vue-router'
@@ -31,7 +31,7 @@ import 'font-awesome/css/font-awesome.css'
           <router-link to="/perfil"> <i class="fa-solid fa-user icon-dash"></i>Perfil</router-link>
         </li>
         <li>
-          <router-link to="/adocao"><i class="fa-solid fa-hand-holding-heart icon-dash"/>Adoções</router-link>
+          <router-link to="/adocao"><i class="fa-solid fa-hand-holding-heart icon-dash"/>Animais</router-link>
         </li>
         <li>
           <router-link to="/cadastro-vet"><i class="fa fa-user-md icon-dash"/>Veterinários</router-link>
@@ -40,7 +40,7 @@ import 'font-awesome/css/font-awesome.css'
           <router-link to="/cadastro-ong"><i class="fa-solid fa-building-ngo"></i>ONGs</router-link>
         </li> -->
         <li>
-          <router-link to="/cadastro-pet"><i class="fa fa-paw icon-dash"/>Pets</router-link>
+          <router-link to="/cadastro-pet"><i class="fa fa-paw icon-dash"/>Cadastro de Pet</router-link>
         </li>
         <!-- <li>
           <router-link to="/cadastro-user"><i class="fa fa-user icon-dash"/>Usuários</router-link>

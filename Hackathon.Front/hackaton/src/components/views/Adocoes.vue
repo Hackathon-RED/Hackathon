@@ -1,8 +1,8 @@
 <template>
     <div class="card-adocoes">
         <div class="title-cadastro">
-            <img class="icon-doacao" src="./assets/adocao.svg"/>
-            ADOÇÕES
+            <i class="fa-solid fa-hand-holding-heart icones"/>
+            ANIMAIS
         </div>
 
         <div class="lista-solicitacoes">
