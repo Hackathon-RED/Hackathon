@@ -21,7 +21,7 @@ import 'font-awesome/css/font-awesome.css'
           <router-link to="/profile">Perfil</router-link>
         </li>
         <li>
-          <router-link to="/profile">Adoções</router-link>
+          <router-link to="/adocao"><img class="icon-doacao" src="./assets/adocao.svg"/>Adoções</router-link>
         </li>
         <li>
           <router-link to="/cadastro-vet"><i class="fa fa-user-md icon-dash"/>Veterinários</router-link>
@@ -41,6 +41,12 @@ import 'font-awesome/css/font-awesome.css'
 </template>
 
 <style scoped>
+
+
+ .icon-doacao{
+  width: 20px;
+  color: white;
+ }
 
 .icon-dash{
   padding-right: 1rem;
