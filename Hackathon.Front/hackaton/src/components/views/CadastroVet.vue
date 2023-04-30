@@ -5,37 +5,39 @@
           CADASTRO DE VETERINÁRIO
         </div>
         <div class="teste">
-          <div>
-            <input placeholder="Nome" class="input"/>
+          <div style=" display: flex; width: 100%; gap: 1rem; flex-wrap: wrap;">
+            <div class="labels">
+              <input placeholder="Nome" class="input"/>
+            </div>
+            <div class="labels">
+              <input placeholder="Sobrenome" class="input"/>
+            </div>
+            <div class="labels">
+              <input placeholder="RG" class="input" maxlength="9"/>
+            </div>
+            <div class="labels">
+              <input placeholder="Orgão Emissor" class="input"/>
+            </div>
+            <div class="labels">
+              <input placeholder="Cpf" class="input"/>
+            </div>
           </div>
-          <div>
-            <input placeholder="Sobrenome" class="input"/>
-          </div>
-          <div>
-            <input placeholder="RG" class="input" maxlength="9"/>
-          </div>
-          <div>
-            <input placeholder="Orgão Emissor" class="input"/>
-          </div>
-          <div>
-            <input placeholder="Cpf" class="input"/>
-          </div>
-          <div>
-            <input placeholder="Endereço" class="input"/>
-          </div>
-          <div>
-            <input placeholder="Complemento" class="input"/>
-          </div>
-          <div>
-            <div>
-            <input placeholder="Numero" class="input"/>
-          </div>
-          </div>
-            <div>
-            <input placeholder="Cidade" class="input"/>
-          </div>
-            <div>
-            <input placeholder="CEP" class="input"/>
+          <div style=" display: flex; width: 100%; gap: 1rem; flex-wrap: wrap;">
+            <div class="labels">
+              <input placeholder="Endereço" class="input"/>
+            </div>
+            <div class="labels">
+              <input placeholder="Complemento" class="input"/>
+            </div>
+              <div class="labels">
+              <input placeholder="Numero" class="input"/>
+            </div>
+              <div class="labels">
+              <input placeholder="Cidade" class="input"/>
+            </div>
+              <div class="labels">
+              <input placeholder="CEP" class="input"/>
+            </div>
           </div>
         </div>
         <div class="btn">    
@@ -53,8 +55,13 @@
 
 
 <style scoped>
+.labels{
+  width: 100%;
+  display:flex;
+}
 
 .input {
+  width: 100%;
     padding: 10px;
     border-radius: 10px;
     outline: none;
@@ -104,12 +111,11 @@
     }
 .teste {
   display: flex;
-  flex-direction: column;
-  gap: 1rem;
-    font-size: 15px ;
+    gap: 1rem;
+    font-size: 15px;
     text-decoration: none;
-  font-weight: bold;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 </style>

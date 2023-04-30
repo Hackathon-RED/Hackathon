@@ -6,61 +6,71 @@
                 PERFIL
             </div>
         </div>
-        <div>
-            <div>
-                <input placeholder="Razão Social" class="input" />
+        <div class="card-form">
+            <div style="width: 100%;row-gap: 1rem; display:flex; flex-direction: column;">
+            <div class="input-labels">
+                <input placeholder="Razão Social" class="input" value="Jéssica e Isabel Informática Ltda"/>
             </div>
-        <div>
-            <input placeholder="CNPJ" class="input" />
+            <div class="input-labels">
+                <input placeholder="CNPJ" class="input"  value="49.639.688/0001-43"/>
+            </div>
+            <div class="input-labels">
+                <input placeholder="Telefone" class="input" />
+            </div>
+            <div class="input-labels">
+                
+                <input placeholder="E-mail" class="input" value="pesquisa@jessicaeisabelinformaticaltda.com.br"/>
+            </div>
+            <div class="input-labels">
+                <input placeholder="Responsável" class="input" />
+            </div>
+            <div class="input-labels">
+                <input placeholder="CPF" class="input"/>
+            </div>
         </div>
-        <div>
-
-            <input placeholder="Endereço" class="input" />
-        </div>
-        <div>
-            
-            <input placeholder="Numero" class="input" />
-        </div>
-        <div>
-
-            <input placeholder="Complemento" class="input"/>
-        </div>
-        <div>
-
-            <input placeholder="Bairro" class="input" />
-        </div>
-        <div>
-
-            <input placeholder="Cidade" class="input"/>
-        </div>
-        <div>
-
-            <input placeholder="Estado" class="input" />
-        </div>
-        <div>
-            
-            <input placeholder="Cep" class="input" />
-        </div>
-        <div>
-
-            <input placeholder="Telefone" class="input" />
-        </div>
-        <div>
-            
-            <input placeholder="E-mail" class="input"/>
-        </div>
-        <div>
-            <input placeholder="Responsável" class="input" />
-        </div>
-        <div>
-            <input placeholder="CPF" class="input"/>
-        </div>
+            <div style="width: 100%;row-gap: 1rem; display:flex; flex-wrap: wrap;">
+                <div class="input-labels">
+                    <input placeholder="Endereço" class="input" />
+                </div>
+                <div class="input-labels">
+                    <input placeholder="Numero" class="input" />
+                </div>
+                <div class="input-labels">
+                    <input placeholder="Complemento" class="input"/>
+                </div>
+                <div class="input-labels">
+                    <input placeholder="Bairro" class="input" />
+                </div>
+                <div class="input-labels-cidade">
+                    <div class="input-labels">
+                        <input placeholder="Cidade" class="input"/>
+                    </div>
+                    <div class="input-labels">
+                        <input placeholder="Estado" class="input" />
+                    </div>
+                </div>
+                <div class="input-labels">
+                    <input placeholder="Cep" class="input" value="11436-160" />
+                </div>
+            </div>
         </div>
     </div>
 </template>
 
 <style scoped>
-
+.input-labels-cidade{
+    display: flex;
+    width: 100%;
+    column-gap: 1rem;
+}
+.input-labels{
+    display: flex;
+    width: 100%;
+}
+.card-form{
+    display: flex;
+    column-gap: 1rem;
+}
 .title-perfil{
         padding-bottom: 1rem;
         display: flex;
@@ -83,6 +93,7 @@
     flex-direction: column;
 }
 .input {
+    width: 100%;
     padding: 10px;
     border-radius: 10px;
     outline: none;
