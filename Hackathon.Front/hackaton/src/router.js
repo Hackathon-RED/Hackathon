@@ -3,6 +3,7 @@ import CadastroUsuario from './components/views/CadastroUsuario.vue'
 import CadastroPet from './components/views/CadastroPet.vue'
 import CadastroOng from './components/views/CadastroOng.vue'
 import CadastroVer from './components/views/CadastroVet.vue'
+import Adocoes from './components/views/Adocoes.vue'
 import Dashboard from './components/views/Dashboard.vue'
 import 'font-awesome/css/font-awesome.css'
 
@@ -16,6 +17,11 @@ const routes = [
     path: '/perfil',
     name: 'perfil',
     component: CadastroOng
+  },
+  {
+    path: '/adocao',
+    name: 'adocao',
+    component: Adocoes
   },
   {
     path: '/cadastro-vet',
