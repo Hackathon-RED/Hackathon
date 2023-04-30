@@ -1,60 +1,53 @@
 <template>
     <div class="card-cadastro">
+      <i class="fa fa-paw icones"/>
+      <div class="title-cadastro">
+          CADASTRO DE VETERINÁRIO
+        </div>
         <div class="teste">
           <div>
             Nome:
           </div>
           <input/>
-
           <div>
             Sobrenome:
           </div>
           <input/>
-
           <div>
             RG:
           </div>
-          <input/>
-          
+          <input maxlength="9"/>
           <div>
-            CPF:
+            Orgão Emissor:
           </div>
           <input/>
-
           <div>
-            Email:
+            Cpf:
           </div>
           <input/>
-
-          <div>
-            Numero CRMV(Conselho Regional de Medicina Veterinária):
-          </div>
-          <input/>
-
-          <div>
-            UF:
-          </div>
-          <input/>
-
-          <div>
-            Especialidade:
-          </div>
-          <input/>
-          
           <div>
             Endereço:
           </div>
           <input/>
-
           <div>
+            Complemento:
+          </div>
+          <input/>
+          <div>
+            <div>
+            Numero:
+          </div>
+          <input type="number"/>
+          </div>
+            <div>
             Cidade:
           </div>
           <input/>
-
-          <div>
-            Cidade:
+            <div>
+            CEP:
           </div>
           <input/>
+          
         </div>
         <div class="btn">    
             <button>CANCELAR</button>
@@ -64,6 +57,7 @@
 </template>
 
 <script>
+
 // export default {
 //     data: {
 //         imagem: {
@@ -89,27 +83,44 @@
 
 
 <style scoped>
+.icones{
+  color: white;
+  height: 1rem;
+  width: 1rem;
+}
+
+.title-cadastro{
+  padding-bottom: 1rem;
+}
+
 
 .btn{
+  margin-top: 1rem;
   display: flex;
   gap: 1rem;
 }
+
 .radio-btn {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     }
 .card-cadastro{
-  background: blue;
+  background: #005438;
     display: flex;
-    border-radius:  5px;
+    border-radius: 5px;
     padding: 1rem;
     flex-direction: column;
+    align-items: center;
+
 }
 
-.teste{
-    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-    font-size: 20px ;
+.teste ,.title-cadastro{
+    font-size: 15px ;
+    text-decoration: none;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
 }
 
 </style>

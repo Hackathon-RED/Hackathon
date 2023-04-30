@@ -1,5 +1,6 @@
 <template>
     <div class="card-cadastro">
+      <i class="fa fa-paw"/>
         <div>
             Imagem: 
             <input type="file"/>

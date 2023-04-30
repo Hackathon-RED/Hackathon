@@ -2,8 +2,11 @@
 import CadastroPet from './components/views/CadastroPet.vue'
 import CadastroUsuario from './components/views/CadastroUsuario.vue'
 import CadastroOng from './components/views/CadastroOng.vue'
+import CadastroVet from './components/views/CadastroVet.vue'
 import ListaAdocao from './components/views/ListaAdocao.vue'
 import { RouterView } from 'vue-router'
+import 'font-awesome/css/font-awesome.css'
+
 
 </script>
 
@@ -21,7 +24,7 @@ import { RouterView } from 'vue-router'
           <router-link to="/profile">Adoções</router-link>
         </li>
         <li>
-          <router-link to="/profile">Veterinários</router-link>
+          <router-link to="/cadastro-vet">Veterinários</router-link>
         </li>
       </ul>
     </div>
@@ -38,6 +41,7 @@ import { RouterView } from 'vue-router'
 }
 
 .menu ul {
+  margin-right: 1rem;
   padding: 15px;
   background-color: #005438;
   width: 250px;
