@@ -9,48 +9,47 @@
         <div class="card-form">
             <div style="width: 100%;row-gap: 1rem; display:flex; flex-direction: column;">
             <div class="input-labels">
-                <input placeholder="Razão Social" class="input" value="Jéssica e Isabel Informática Ltda"/>
+                <input disabled placeholder="Razão Social" class="input" value="Jéssica e Isabel Informática Ltda"/>
             </div>
             <div class="input-labels">
-                <input placeholder="CNPJ" class="input"  value="49.639.688/0001-43"/>
+                <input disabled placeholder="CNPJ" class="input"  value="49.639.688/0001-43"/>
             </div>
             <div class="input-labels">
-                <input placeholder="Telefone" class="input" />
+                <input disabled placeholder="Telefone" class="input" />
             </div>
             <div class="input-labels">
-                
-                <input placeholder="E-mail" class="input" value="pesquisa@jessicaeisabelinformaticaltda.com.br"/>
+                <input disabled placeholder="E-mail" class="input" value="pesquisa@jessicaeisabelinformaticaltda.com.br"/>
             </div>
             <div class="input-labels">
-                <input placeholder="Responsável" class="input" />
+                <input disabled placeholder="Responsável" class="input" />
             </div>
             <div class="input-labels">
-                <input placeholder="CPF" class="input"/>
+                <input disabled placeholder="CPF" class="input"/>
             </div>
         </div>
             <div style="width: 100%;row-gap: 1rem; display:flex; flex-wrap: wrap;">
                 <div class="input-labels">
-                    <input placeholder="Endereço" class="input" />
+                    <input disabled placeholder="Endereço" class="input" value="Rua Minas Gerais"/>
                 </div>
                 <div class="input-labels">
-                    <input placeholder="Numero" class="input" />
+                    <input disabled placeholder="Numero" class="input"  value="540"/>
                 </div>
                 <div class="input-labels">
-                    <input placeholder="Complemento" class="input"/>
+                    <input disabled placeholder="Complemento" class="input"/>
                 </div>
                 <div class="input-labels">
-                    <input placeholder="Bairro" class="input" />
+                    <input disabled placeholder="Bairro" class="input" />
                 </div>
                 <div class="input-labels-cidade">
                     <div class="input-labels">
-                        <input placeholder="Cidade" class="input"/>
+                        <input disabled placeholder="Cidade" class="input" value="Guarujá"/>
                     </div>
                     <div class="input-labels">
-                        <input placeholder="Estado" class="input" />
+                        <input disabled placeholder="Estado" class="input"  value="SP"/>
                     </div>
                 </div>
                 <div class="input-labels">
-                    <input placeholder="Cep" class="input" value="11436-160" />
+                    <input disabled placeholder="Cep" class="input" value="11436-160" />
                 </div>
             </div>
         </div>

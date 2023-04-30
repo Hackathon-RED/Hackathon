@@ -8,61 +8,78 @@
         </div>
         <div class="teste">
           <div class="aaaaaa">
-              <input class="input-file" name="file" id="file" type="file"/>
-              <label class="input-filee" for="file">Insira a foto do Pet</label>
-            </div>
-          <div>
-            <input placeholder="Nome do Pet" class="input"/>
+            <img style="max-width: 400px; border-radius: 15px;" src="https://www.petz.com.br/blog/wp-content/uploads/2022/02/gato-e-carnivoro2.jpg" />
+            <input class="input-file" name="file" id="file" type="file"/>
+            <label class="input-filee" for="file">Insira a foto do Pet</label>
           </div>
-          <div>
-            <input placeholder="RGA (Opcional)" class="input" type="number"/>
-          </div>
-          <div>
-            <input placeholder="Proprietário" class="input"/>
-          </div>
-          <div>
-            <input placeholder="Espécie" class="input"/>
-          </div>
-          <div>
-            <input placeholder="Raça" class="input"/>
-          </div>
-          <div>
-            <select class="input" >
-              <option value="">Selecione um porte</option>
-              <option value="pequeno">Pequeno</option>
-              <option value="medio">Médio</option>
-              <option value="grande">Grande</option>
-            </select>
-          </div>
+          <div style="display:flex;gap: 1rem;flex-direction: column;">
 
+            <div style="display: flex; gap: 1rem;">
+              <div>
+
+                <div>
+                  <input placeholder="Nome do Pet" class="input"/>
+                </div>
+              <div>
+                <input placeholder="RGA (Opcional)" class="input" type="number"/>
+              </div>
+              <div>
+                <input placeholder="Proprietário" class="input"/>
+              </div>
+            </div>
+            <div style="display: flex; gap: 1rem;">
+              <div>
+                <input placeholder="Espécie" class="input"/>
+              </div>
+              <div>
+                <input placeholder="Raça" class="input"/>
+              </div>
+              <div>
+                <select class="input" >
+                  <option value="">Selecione um porte</option>
+                  <option value="pequeno">Pequeno</option>
+                  <option value="medio">Médio</option>
+                  <option value="grande">Grande</option>
+                </select>
+              </div>
+            </div>
+        </div>
+        
+        <div style="display:flex;gap: 5rem;">
           <div>
             Data de Nascimento:
             <input class="input" type="date"/>
           </div>
+          <div style="display:flex;gap: 1rem;flex-direction: column;">
           <div class="radio-btn">
             Sexo do Animal
             <label for="huey">Masculino
               <input type="radio" id="masc" name="SEXO" value="masc"/>
             </label>
               <label for="huey">Feminino
-                  <input type="radio" id="fem" name="SEXO" value="fem"/>
+                <input type="radio" id="fem" name="SEXO" value="fem"/>
               </label>
             </div>
-          <div>
-            É Castrado?
-            <input class="input" type="checkbox"/>
           </div>
           <div>
-            É Vacinado?
-            <input class="input" type="checkbox"/>
+            <div>
+              É Castrado?
+              <input class="input" type="checkbox"/>
+            </div>
+            <div>
+              É Vacinado?
+              <input class="input" type="checkbox"/>
+            </div>
+          </div>
           </div>
         </div>
+      </div>
         <div class="btn">    
           <button class="btn-cancelar">CANCELAR</button>
           <button class="btn-salvar">SALVAR</button>
         </div>
       </div>
-      </div>
+    </div>
 </template>
 
 <script>
@@ -119,7 +136,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-    gap: 3rem;
+  flex-direction: column;
     }
     
     .btn{
