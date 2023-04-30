@@ -28,8 +28,8 @@ import 'font-awesome/css/font-awesome.css'
         </li>
       </ul>
     </div>
-    <div>
-    <router-view></router-view>  
+    <div style="width: 100%; height: 100%;">
+      <router-view></router-view>  
     </div>
   </div>
 </template>
@@ -46,6 +46,7 @@ import 'font-awesome/css/font-awesome.css'
   background-color: #005438;
   width: 250px;
   border-radius: 0 15px 15px 0;
+  margin: 0;
 }
 .menu ul li {
   cursor: pointer;
