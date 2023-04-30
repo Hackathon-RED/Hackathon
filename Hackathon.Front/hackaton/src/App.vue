@@ -18,13 +18,16 @@ import 'font-awesome/css/font-awesome.css'
           <router-link to="/">Dashboard</router-link>
         </li>
         <li>
-          <router-link to="/profile">Perfil</router-link>
+          <router-link to="/perfil">Perfil</router-link>
         </li>
         <li>
           <router-link to="/adocao"><img class="icon-doacao" src="./assets/adocao.svg"/>Adoções</router-link>
         </li>
         <li>
           <router-link to="/cadastro-vet"><i class="fa fa-user-md icon-dash"/>Veterinários</router-link>
+        </li>
+        <li>
+          <router-link to="/cadastro-ong"><i class="fa fa-user-md icon-dash"/>ONGs</router-link>
         </li>
         <li>
           <router-link to="/cadastro-pet"><i class="fa fa-paw icon-dash"/>Pets</router-link>

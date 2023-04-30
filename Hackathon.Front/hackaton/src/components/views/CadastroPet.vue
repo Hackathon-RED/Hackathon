@@ -104,7 +104,6 @@
     border-radius: 5px;
     padding: 1rem;
     flex-direction: column;
-    align-items: center;
 
 }
 
@@ -114,8 +113,15 @@
         align-items: center;
         gap: 1rem;
     }
-.teste ,.title-cadastro{
+
+.title-cadastro{
     font-size: 25px ;
+    text-decoration: none;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.teste {
+    font-size: 15px ;
     text-decoration: none;
   font-weight: bold;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
