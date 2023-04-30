@@ -1,9 +1,4 @@
 <script setup>
-import CadastroPet from './components/views/CadastroPet.vue'
-import CadastroUsuario from './components/views/CadastroUsuario.vue'
-import CadastroOng from './components/views/CadastroOng.vue'
-import CadastroVet from './components/views/CadastroVet.vue'
-import ListaAdocao from './components/views/ListaAdocao.vue'
 import { RouterView } from 'vue-router'
 import 'font-awesome/css/font-awesome.css'
 
@@ -13,8 +8,8 @@ import 'font-awesome/css/font-awesome.css'
 <template>
   <div id="nav">
     <div class="menu">
-      <ul>
-        <li style="display: flex; justify-content: center;">
+      <ul style="height: 97vh;">
+        <li class="logo">
           <div style="width: 150px;">
               <svg xmlns="http://www.w3.org/2000/svg" version="1.0" preserveAspectRatio="xMidYMid meet" viewBox="125.19 187.11 249.63 89.89">
                 <g transform="translate(0.000000,500.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
@@ -52,7 +47,19 @@ import 'font-awesome/css/font-awesome.css'
 
 <style scoped>
 
+.logo {
+  display: flex; 
+  justify-content: center;
+  transition: 0;
+}
 
+.menu ul .logo:hover {
+  background-color: #005438;
+}
+
+.menu ul .logo:hover a {
+  color: white;
+}
  .icon-doacao{
   width: 20px;
   color: white;

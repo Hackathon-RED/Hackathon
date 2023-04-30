@@ -1,6 +1,6 @@
 <template>
     <div style="overflow-y: hidden;">
-        <div style="display: flex; flex-wrap: wrap; justify-content: space-between; padding: 15px;">
+        <div style="display: flex; flex-wrap: wrap; justify-content: space-between; padding: 15px 30px;">
         <div class="card" style="background-color: #028A0F;">
             <h3>R$ 14.900,00</h3>
         </div>
@@ -22,15 +22,18 @@
                 <div class="lista-solicitacoes">
                     <ul>
                        <li>
-                        <div style="display: flex;">
-                            <div style="max-width: 100px;">
-                                <img style="width: 100%; border-radius: 15px;" src="https://conteudo.imguol.com.br/c/entretenimento/54/2020/04/28/cachorro-pug-1588098472110_v2_900x506.jpg" />
+                        <div style="display: flex; justify-content: space-between;">
+                            <div style="display: flex;">
+                                <div style="max-width: 100px;">
+                                    <img style="width: 100%; border-radius: 15px;" src="https://conteudo.imguol.com.br/c/entretenimento/54/2020/04/28/cachorro-pug-1588098472110_v2_900x506.jpg" />
+                                </div>
+                                <div style="margin-left: 15px;">
+                                    <h5>Bob</h5>
+                                    <p style="font-size: 0.85em;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                </div>
                             </div>
-                            <div>
-                                <h5>Bob <span>Macho</span></h5>
-                                <p style="font-size: 0.85em;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                            <div>
+                            <div style="margin-right: 15px;">
+                                <i class="fa-solid fa-mars"></i>
                                 <span>05/05/2023</span>
                             </div>
                         </div>
@@ -98,7 +101,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 150px;
+    height: 100px;
     margin-bottom: 40px;
 }
 
