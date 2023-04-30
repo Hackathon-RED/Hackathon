@@ -42,7 +42,7 @@
             
         </div>
         <div class="card" style="width: 50%; height: 350px;">
-            <div style="display: flex; flex-direction: column; width: 100%; height: 100%;">
+            <div class="w-100 h-100" style="display: flex; flex-direction: column;">
                 <div style="height: 15%;">
                     <h3 style="color: #005438;">Últimas Solicitações</h3>
                 </div>
@@ -69,7 +69,7 @@
                         <div style="display: flex; justify-content: space-between;">
                             <div style="display: flex;">
                                 <div style="max-width: 100px;">
-                                    <img style="width: 100%; border-radius: 15px;" src="https://s2.glbimg.com/nvjFq8VRjyrpdQqaOeywz-5DFwY=/e.glbimg.com/og/ed/f/original/2021/08/27/captura_de_tela_2021-08-27_as_11.01.15.png" />
+                                    <img class="w-100" style="border-radius: 15px;" src="https://s2.glbimg.com/nvjFq8VRjyrpdQqaOeywz-5DFwY=/e.glbimg.com/og/ed/f/original/2021/08/27/captura_de_tela_2021-08-27_as_11.01.15.png" />
                                 </div>
                                 <div style="margin-left: 15px;">
                                     <h5>João <i class="fa-solid fa-mars"></i></h5>
@@ -86,7 +86,7 @@
                         <div style="display: flex; justify-content: space-between;">
                             <div style="display: flex;">
                                 <div style="max-width: 100px;">
-                                    <img style="width: 100%; border-radius: 15px;" src="https://www.petz.com.br/blog/wp-content/uploads/2022/02/gato-e-carnivoro2.jpg" />
+                                    <img class="w-100" style="border-radius: 15px;" src="https://www.petz.com.br/blog/wp-content/uploads/2022/02/gato-e-carnivoro2.jpg" />
                                 </div>
                                 <div style="margin-left: 15px;">
                                     <h5>Lulu <i class="fa-solid fa-venus"></i></h5>
@@ -103,7 +103,7 @@
                         <div style="display: flex; justify-content: space-between;">
                             <div style="display: flex;">
                                 <div style="max-width: 100px;">
-                                    <img style="width: 100%; border-radius: 15px;" src="https://static1.patasdacasa.com.br/articles/9/18/99/@/8911-conheca-mais-sobre-o-corgi-essa-raca-su-articles_media_mobile-2.jpg" />
+                                    <img class="w-100" style="border-radius: 15px;" src="https://static1.patasdacasa.com.br/articles/9/18/99/@/8911-conheca-mais-sobre-o-corgi-essa-raca-su-articles_media_mobile-2.jpg" />
                                 </div>
                                 <div style="margin-left: 15px;">
                                     <h5>Maria <i class="fa-solid fa-venus"></i></h5>
@@ -125,7 +125,13 @@
 </template>
 
 <style scoped>
+.w-100 {
+    width: 100%;
+}
 
+.h-100 {
+    width: 100%;
+}
 .fa-venus {
     color: #E75480;
 }
