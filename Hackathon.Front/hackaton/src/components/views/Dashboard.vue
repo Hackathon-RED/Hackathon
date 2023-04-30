@@ -1,5 +1,6 @@
 <template>
-    <div style="display: flex; flex-wrap: wrap; justify-content: space-between; width: 100%;">
+    <div style="overflow-y: hidden;">
+        <div style="display: flex; flex-wrap: wrap; justify-content: space-between; padding: 15px;">
         <div class="card" style="background-color: #028A0F;">
             <h3>R$ 14.900,00</h3>
         </div>
@@ -80,7 +81,7 @@
                 </div>
             </div>
         </div>
-
+        </div>
     </div>
 </template>
 
