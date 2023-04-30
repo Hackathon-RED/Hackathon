@@ -9,42 +9,61 @@ import { RouterView } from 'vue-router'
 
 <template>
   <div id="nav">
-    <ListaAdocao></ListaAdocao>
-    <CadastroOng></CadastroOng>
-    <CadastroUsuario></CadastroUsuario>
-    <CadastroPet></CadastroPet>
-    <router-link to="/">CadastroPet</router-link> |
-    <router-link to="/profile">Profile</router-link>
+    <div class="menu">
+      <ul>
+        <li>
+          <router-link to="/">Dashboard</router-link>
+        </li>
+        <li>
+          <router-link to="/profile">Perfil</router-link>
+        </li>
+        <li>
+          <router-link to="/profile">Adoções</router-link>
+        </li>
+        <li>
+          <router-link to="/profile">Veterinários</router-link>
+        </li>
+      </ul>
+    </div>
+    <div>
     <router-view></router-view>  
     </div>
+  </div>
 </template>
 
 <style scoped>
 
-header {
-  line-height: 1.5;
+#nav {
+  display: flex;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
+.menu ul {
+  padding: 15px;
+  background-color: #005438;
+  width: 250px;
+  border-radius: 0 15px 15px 0;
+}
+.menu ul li {
+  cursor: pointer;
+  list-style: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: 0.25s ease-in-out;
+  margin: 10px 0;
 }
 
-@media (min-width: 1024px) {
-  /* header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
+.menu ul li:hover {
+  background-color: white;
+}
 
-  .logo {
-    margin: 0 2rem 0 0;
-  }
+.menu ul li:hover a {
+  color: #005438;
+}
 
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  } */
+.menu ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
 }
 </style>
