@@ -1,9 +1,14 @@
 <template>
     <div class="card-cadastro">
-      <i class="fa fa-paw"/>
-        <div>
+      <i class="fa fa-paw icones"/>
+       <div class="title-cadastro">
+         CADASTRO DE PETS
+       </div>
+        <div class="teste">
             Imagem: 
-            <input type="file"/>
+            <div>
+              <input type="file"/>
+            </div>
         </div>
         <div class="teste">
           <div>
@@ -54,13 +59,17 @@
           </div>
 
           <div>
-            Ja é Castrado?
+            É Castrado?
+            <input type="checkbox"/>
+          </div>
+          <div>
+            É Vacinado?
             <input type="checkbox"/>
           </div>
           
           
         </div>
-        <div class="">    
+        <div class="btn">    
             <button>CANCELAR</button>
             <button>SALVAR</button>
         </div>
@@ -71,29 +80,42 @@
 
 </script>
 
-
-
-
-
-
-
 <style scoped>
-.radio-btn {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    }
-.card-cadastro{
-  background: #028A0f;
-    display: flex;
-    border-radius:  5px;
-    padding: 1rem;
-    flex-direction: column;
+.title-cadastro{
+  padding-bottom: 1rem;
 }
 
-.teste{
-    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-    font-size: 20px ;
+.icones{
+  font-size: 50px;
+}
+.radio-btn {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 3rem;
+    }
+
+.btn{
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.card-cadastro{
+  background: white;
+    display: flex;
+    border-radius: 5px;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.teste ,.title-cadastro{
+    font-size: 15px ;
+    text-decoration: none;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 </style>

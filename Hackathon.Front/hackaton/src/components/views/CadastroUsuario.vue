@@ -1,5 +1,9 @@
 <template>
     <div class="card-cadastro">
+      <i class="fa fa-user icones"/>
+      <div class="title-cadastro">
+          CADASTRO DE USUÁRIO
+        </div>
         <div class="teste">
           <div>
             Nome:
@@ -10,7 +14,6 @@
             Sobrenome:
           </div>
           <input/>
-
           <div>
             RG:
           </div>
@@ -86,10 +89,10 @@
 
 </script>
 
-
-
 <style scoped>
-
+.icones{
+  font-size: 50px;
+}
 .btn{
   display: flex;
   gap: 1rem;
@@ -99,18 +102,21 @@
     flex-direction: column;
     align-items: flex-start;
     }
-.card-cadastro{
-  background: blue;
+    .card-cadastro{
+  background: white;
     display: flex;
-    border-radius:  5px;
+    border-radius: 5px;
     padding: 1rem;
     flex-direction: column;
+    align-items: center;
+
 }
 
-.teste{
-    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-    font-size: 20px ;
+.teste ,.title-cadastro{
+    font-size: 15px ;
+    text-decoration: none;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 </style>
 
