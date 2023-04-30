@@ -1,54 +1,68 @@
 <template>
-    <div>
+    <div class="card">
         <div>
-            Razão Social:
-            <input/>
+            <input placeholder="Razão Social" class="input"/>
         </div>
         <div>
-            CNPJ
-            <input/>
+            <input placeholder="CNPJ" class="input"/>
         </div>
         <hr>
         <div>
-            Endereço:
-            <input/>
+
+            <input placeholder="Endereço" class="input"/>
         </div>
         <div>
-            Numero:
-            <input/>
+
+            <input placeholder="Numero" class="input"/>
         </div>
         <div>
-            Complemento:
-            <input/>
+
+            <input placeholder="Complemento" class="input"/>
         </div>
         <div>
-            Bairro:
-            <input/>
+
+            <input placeholder="Bairro" class="input"/>
         </div>
         <div>
-            Complemento:
-            <input/>
+
+            <input placeholder="Cidade" class="input"/>
         </div>
         <div>
-            CEP:
-            <input/>
+
+            <input placeholder="Estado" class="input"/>
         </div>
         <div>
-            Telefone:
-            <input/>
+
+            <input placeholder="Cep" class="input"/>
         </div>
         <div>
-            E-mail:
-            <input/>
+
+            <input placeholder="Telefone" class="input"/>
+        </div>
+        <div>
+
+            <input placeholder="E-mail" class="input"/>
         </div>
         <hr>
         <div>
-            Responsável:
-            <input/>
+            <input placeholder="Responsável" class="input"/>
         </div>
         <div>
-            CPF:
-            <input/>
+            <input placeholder="CPF" class="input"/>
         </div>
     </div>
 </template>
+
+<style scoped>
+.card{
+    display: flex;
+    gap:1rem;
+}
+.input {
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 0.5px solid #ddd;
+    box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.35);
+}
+</style>

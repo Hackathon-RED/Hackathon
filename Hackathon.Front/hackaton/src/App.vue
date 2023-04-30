@@ -15,10 +15,10 @@ import 'font-awesome/css/font-awesome.css'
     <div class="menu">
       <ul>
         <li>
-          <router-link to="/">Dashboard</router-link>
+          <router-link to="/"><i class="fa-solid fa-table-columns icon-dash"></i>Dashboard</router-link>
         </li>
         <li>
-          <router-link to="/perfil">Perfil</router-link>
+          <router-link to="/perfil"> <i class="fa-solid fa-user icon-dash"></i>Perfil</router-link>
         </li>
         <li>
           <router-link to="/adocao"><img class="icon-doacao" src="./assets/adocao.svg"/>Adoções</router-link>
@@ -26,15 +26,15 @@ import 'font-awesome/css/font-awesome.css'
         <li>
           <router-link to="/cadastro-vet"><i class="fa fa-user-md icon-dash"/>Veterinários</router-link>
         </li>
-        <li>
-          <router-link to="/cadastro-ong"><i class="fa fa-user-md icon-dash"/>ONGs</router-link>
-        </li>
+        <!-- <li>
+          <router-link to="/cadastro-ong"><i class="fa-solid fa-building-ngo"></i>ONGs</router-link>
+        </li> -->
         <li>
           <router-link to="/cadastro-pet"><i class="fa fa-paw icon-dash"/>Pets</router-link>
         </li>
-        <li>
+        <!-- <li>
           <router-link to="/cadastro-user"><i class="fa fa-user icon-dash"/>Usuários</router-link>
-        </li>
+        </li> -->
       </ul>
     </div>
     <div style="width: 100%; height: 100%;">
@@ -48,6 +48,7 @@ import 'font-awesome/css/font-awesome.css'
 
  .icon-doacao{
   width: 20px;
+  padding-right: 1rem;
 
  }
 

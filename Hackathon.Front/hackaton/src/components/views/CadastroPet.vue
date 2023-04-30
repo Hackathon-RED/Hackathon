@@ -5,50 +5,39 @@
          CADASTRO DE PETS
        </div>
         <div class="teste">
-            Imagem: 
+            Foto do Pet
             <div>
-              <input type="file"/>
+              <input class="input" type="file"/>
             </div>
-        </div>
-        <div class="teste">
           <div>
-            Nome do Animal:
+            <input placeholder="Nome do Pet" class="input"/>
           </div>
-          <input/>
           <div>
-            RGA (Opcional)
+            <input placeholder="RGA (Opcional)" class="input" type="number"/>
           </div>
-          <input type="number"/>
           <div>
-            Proprietário:
+            <input placeholder="Proprietário" class="input"/>
           </div>
-          <input/>
           <div>
-            Espécie:
+            <input placeholder="Espécie" class="input"/>
           </div>
-          <input/>
           <div>
-            Raça:
+            <input placeholder="Raça" class="input"/>
           </div>
-          <input/>
           <div>
-            Porte:
-          </div>
-          <select id="cars">
+            <select class="input" id="cars">
               <option value="">Selecione um porte</option>
-            <option value="pequeno">Pequeno</option>
-            <option value="medio">Médio</option>
-            <option value="grande">Grande</option>
-        </select>
+              <option value="pequeno">Pequeno</option>
+              <option value="medio">Médio</option>
+              <option value="grande">Grande</option>
+            </select>
+          </div>
 
           <div>
             Data de Nascimento:
           </div>
-          <input type="date"/>
-
-          <div>
-            Sexo do Animal
-          </div>
+          <input class="input" type="date"/>
+          Sexo do Animal
           <div class="radio-btn">
               <label for="huey">Masculino
                   <input type="radio" id="masc" name="SEXO" value="masc"/>
@@ -60,18 +49,18 @@
 
           <div>
             É Castrado?
-            <input type="checkbox"/>
+            <input class="input" type="checkbox"/>
           </div>
           <div>
             É Vacinado?
-            <input type="checkbox"/>
+            <input class="input" type="checkbox"/>
           </div>
           
           
         </div>
         <div class="btn">    
-            <button>CANCELAR</button>
-            <button>SALVAR</button>
+            <button class="btn-cancelar">CANCELAR</button>
+            <button class="btn-salvar">SALVAR</button>
         </div>
     </div>
 </template>
@@ -81,6 +70,28 @@
 </script>
 
 <style scoped>
+
+.input{
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: 0.5px solid #ddd;
+  box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.35);
+}
+.input-check{
+  padding: 15px;
+  border-radius: 15px;
+  outline: none;
+  border: 0.5px solid #ddd;
+  box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.35);
+}
+.btn-cancelar, .btn-salvar{
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: 0.5px solid #ddd;
+  box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.35);
+}
 
 .icones{
   font-size: 50px;
@@ -121,10 +132,14 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .teste {
-    font-size: 15px ;
+  gap: 1rem;
+    display: flex;
+    font-size: 15px;
     text-decoration: none;
-  font-weight: bold;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 </style>
