@@ -21,7 +21,7 @@ import 'font-awesome/css/font-awesome.css'
           <router-link to="/perfil"> <i class="fa-solid fa-user icon-dash"></i>Perfil</router-link>
         </li>
         <li>
-          <router-link to="/adocao"><img class="icon-doacao" src="./assets/adocao.svg" id="icon-donate"/>Adoções</router-link>
+          <router-link to="/adocao"><i class="fa-solid fa-hand-holding-heart icon-dash"/>Adoções</router-link>
         </li>
         <li>
           <router-link to="/cadastro-vet"><i class="fa fa-user-md icon-dash"/>Veterinários</router-link>

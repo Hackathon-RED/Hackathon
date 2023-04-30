@@ -1,13 +1,14 @@
 <template>
     <div class="card-cadastro">
-      <i class="fa fa-paw icones"/>
-       <div class="title-cadastro">
+      <div class="title-cadastro">
+         <i class="fa fa-paw icones"/>
          CADASTRO DE PETS
        </div>
         <div class="teste">
             Foto do Pet
             <div>
-              <input class="input" type="file"/>
+              <input class="input-file" name="file" id="file" type="file"/>
+              <label class="input-filee" for="file">Choose a file</label>
             </div>
           <div>
             <input placeholder="Nome do Pet" class="input"/>
@@ -67,9 +68,27 @@
 
 <script>
 
+
 </script>
 
 <style scoped>
+
+.input-filee{
+  cursor:pointer;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: 0.5px solid #ddd;
+  box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.35);
+}
+.input-file{
+  width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
 
 .input{
   padding: 10px;
