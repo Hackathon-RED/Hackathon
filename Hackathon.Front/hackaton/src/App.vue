@@ -54,8 +54,6 @@ import 'font-awesome/css/font-awesome.css'
 </template>
 
 <style scoped>
-
-
  .icon-doacao{
   width: 20px;
 

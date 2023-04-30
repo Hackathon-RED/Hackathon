@@ -22,7 +22,7 @@
           labels: [ 'Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'  ],
           datasets: [{
             label: 'Adoções do Ano de 2023',
-            backgroundColor: '#e55d3f',
+            backgroundColor: '#005438',
             data: [30, 24, 12, 37]
           }]
         },

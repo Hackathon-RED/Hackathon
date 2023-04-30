@@ -24,7 +24,7 @@
                 <img style="width: 100%;" src="./../../assets/img/money.svg">
             </div>
             <div class="card-title">
-                <p>Animais adotados do mês</p>
+                <p>Fundos</p>
                 <h3 class="title">R$ 3.500,00</h3>
             </div>
         </div>
@@ -34,11 +34,11 @@
             </div>
             <div class="card-title">
                 <p style="color: white;">Solicitações</p>
-                <h3 class="title" style="color: white !important">294</h3>
+                <h3 class="title" style="color: white !important">14</h3>
             </div>
         </div>
 
-        <div class="card" style="width: 40%; height: 350px;">
+        <div class="card" style="width: 42.5%; height: 350px;">
             <BarChart></BarChart>
         </div>
         <div class="card" style="width: 50%; height: 350px;">
@@ -120,7 +120,7 @@
                 </div>
             </div>
         </div>
-        <div class="card" style="width: 40%; height: 350px;">
+        <div class="card" style="width: 42.5%; height: 350px;">
             <PieChart></PieChart>
         </div>
         <div class="card" style="width: 50%; height: 350px;">
@@ -292,6 +292,10 @@
     font-size: 2em;
     margin: 0;
 }
+
+p, span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+  }
 
 </style>
 
