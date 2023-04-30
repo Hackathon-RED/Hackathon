@@ -1,8 +1,8 @@
 <template>
     <div class="card-cadastro">
       <div class="title-cadastro">
-        <i class="fa fa-user-md icones"/>
-          CADASTRO DE VETERINÁRIO
+            <i style="color: #005438;" class="fa fa-user-md icon-dash icones"/>
+            <span style="color: #005438;">CADASTRO DE VETERINÁRIO</span>
         </div>
         <div class="teste">
           <div style=" display: flex; width: 100%; gap: 1rem; flex-wrap: wrap;">

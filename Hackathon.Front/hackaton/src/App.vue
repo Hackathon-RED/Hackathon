@@ -11,9 +11,9 @@ import 'font-awesome/css/font-awesome.css'
 </script>
 
 <template>
-  <div id="nav">
+  <div id="nav" style="height: 95vh;">
     <div class="menu">
-      <ul style="height: 97vh;">
+      <ul style="height: 100%;">
         <li class="logo">
           <div style="width: 150px;">
               <svg xmlns="http://www.w3.org/2000/svg" version="1.0" preserveAspectRatio="xMidYMid meet" viewBox="125.19 187.11 249.63 89.89">

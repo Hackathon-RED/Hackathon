@@ -2,7 +2,7 @@
     <div style="overflow-y: hidden;">
         <div style="display: flex; flex-wrap: wrap; justify-content: space-between; padding: 15px 30px;">
         <div class="card" style="justify-content: start;">
-            <div style="max-width: 100px;"> 
+            <div style="max-width: 80px;"> 
                 <img style="width: 100%;" src="./../../assets/img/dog.svg">
             </div>
             <div class="card-title">
@@ -11,7 +11,7 @@
             </div>
         </div>
         <div class="card" style="justify-content: start;">
-            <div style="max-width: 100px;"> 
+            <div style="max-width: 80px;"> 
                 <img style="width: 100%;" src="./../../assets/img/friends.svg">
             </div>
             <div class="card-title">
@@ -20,16 +20,16 @@
             </div>
         </div>
         <div class="card" style="justify-content: start;">
-            <div style="max-width: 100px;"> 
+            <div style="max-width: 80px;"> 
                 <img style="width: 100%;" src="./../../assets/img/money.svg">
             </div>
             <div class="card-title">
                 <p>Fundos</p>
-                <h3 class="title">R$ 3.500,00</h3>
+                <h3 style="font-size: 1em;" class="title">R$ 3.500,00</h3>
             </div>
         </div>
         <div class="card" style="justify-content: start; background-color: #005438;">
-            <div style="max-width: 100px;"> 
+            <div style="max-width: 80px;"> 
                 <img style="width: 100%; filter:brightness(10)" src="./../../assets/img/cat.svg">
             </div>
             <div class="card-title">
@@ -51,7 +51,7 @@
                        <li>
                         <div style="display: flex; justify-content: space-between;">
                             <div style="display: flex;">
-                                <div style="max-width: 100px;">
+                                <div style="max-width: 80px;">
                                     <img style="width: 100%; border-radius: 15px;" src="https://conteudo.imguol.com.br/c/entretenimento/54/2020/04/28/cachorro-pug-1588098472110_v2_900x506.jpg" />
                                 </div>
                                 <div style="margin-left: 15px;">
@@ -68,7 +68,7 @@
                        <li>
                         <div style="display: flex; justify-content: space-between;">
                             <div style="display: flex;">
-                                <div style="max-width: 100px;">
+                                <div style="max-width: 80px;">
                                     <img class="w-100" style="border-radius: 15px;" src="https://s2.glbimg.com/nvjFq8VRjyrpdQqaOeywz-5DFwY=/e.glbimg.com/og/ed/f/original/2021/08/27/captura_de_tela_2021-08-27_as_11.01.15.png" />
                                 </div>
                                 <div style="margin-left: 15px;">
@@ -85,7 +85,7 @@
                        <li>
                         <div style="display: flex; justify-content: space-between;">
                             <div style="display: flex;">
-                                <div style="max-width: 100px;">
+                                <div style="max-width: 80px;">
                                     <img class="w-100" style="border-radius: 15px;" src="https://www.petz.com.br/blog/wp-content/uploads/2022/02/gato-e-carnivoro2.jpg" />
                                 </div>
                                 <div style="margin-left: 15px;">
@@ -102,7 +102,7 @@
                        <li>
                         <div style="display: flex; justify-content: space-between;">
                             <div style="display: flex;">
-                                <div style="max-width: 100px;">
+                                <div style="max-width: 80px;">
                                     <img class="w-100" style="border-radius: 15px;" src="https://static1.patasdacasa.com.br/articles/9/18/99/@/8911-conheca-mais-sobre-o-corgi-essa-raca-su-articles_media_mobile-2.jpg" />
                                 </div>
                                 <div style="margin-left: 15px;">
@@ -296,6 +296,10 @@
 p, span {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
   }
+
+#nav {
+    height: 100% !important;
+}
 
 </style>
 

@@ -2,8 +2,8 @@
     <div class="card">
         <div>
             <div class="title-perfil">
-                <i class="fa-solid fa-user icones"></i>
-                PERFIL
+                <i style="font-size: 1.25em; color: #005438;" class="fa-solid fa-user icones"></i>
+                <span style="color: #005438;" >PERFIL</span>
             </div>
         </div>
         <div class="card-form">

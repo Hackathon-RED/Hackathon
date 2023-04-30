@@ -3,28 +3,26 @@
       <div>
 
         <div class="title-cadastro">
-          <i class="fa fa-paw icones"/>
-          CADASTRO DE PETS
+            <i style="color: #005438;" class="fa fa-paw icon-dash icones"/>
+            <span style="color: #005438;">CADASTRO DE PETS</span>
         </div>
-        <div class="teste">
-          <div class="aaaaaa">
-            <img style="max-width: 400px; border-radius: 15px;" src="https://www.petz.com.br/blog/wp-content/uploads/2022/02/gato-e-carnivoro2.jpg" />
+        <div style="display: flex;">
+          <div>
+            <img style="max-width: 350px; border-radius: 15px;" src="https://www.petz.com.br/blog/wp-content/uploads/2022/02/gato-e-carnivoro2.jpg" />
             <input class="input-file" name="file" id="file" type="file"/>
-            <label class="input-filee" for="file">Insira a foto do Pet</label>
           </div>
-          <div style="display:flex;gap: 1rem;flex-direction: column;">
-
-            <div style="display: flex; gap: 1rem;">
-              <div>
-
-                <div>
-                  <input placeholder="Nome do Pet" class="input"/>
+          <div style="display:flex;gap: 1rem;flex-direction: column; width: 570px; padding-left: 15px;">
+            <div style="display: flex; gap: 1rem; width: 100%;">
+                <div style="display: flex; justify-content: space-between;">
+                  <div style="width: 25%;">
+                    <input placeholder="Nome do Pet" class="input"/>
+                  </div>
+                <div style="width: 25%;">
+                  <input placeholder="RGA (Opcional)" class="input" type="number"/>
                 </div>
-              <div>
-                <input placeholder="RGA (Opcional)" class="input" type="number"/>
-              </div>
-              <div>
-                <input placeholder="Proprietário" class="input"/>
+                <div style="width: 25%;">
+                  <input placeholder="Proprietário" class="input"/>
+                </div>
               </div>
             </div>
             <div style="display: flex; gap: 1rem;">
@@ -43,16 +41,15 @@
                 </select>
               </div>
             </div>
-        </div>
         
         <div style="display:flex;gap: 5rem;">
           <div>
             Data de Nascimento:
             <input class="input" type="date"/>
           </div>
-          <div style="display:flex;gap: 1rem;flex-direction: column;">
+          <div style="display:flex;gap: 1rem; width: 150px;">
           <div class="radio-btn">
-            Sexo do Animal
+            <span>Sexo do Animal</span>
             <label for="huey">Masculino
               <input type="radio" id="masc" name="SEXO" value="masc"/>
             </label>
@@ -61,13 +58,13 @@
               </label>
             </div>
           </div>
-          <div>
-            <div>
-              É Castrado?
+          <div style="display: flex; flex-direction: column;">
+            <div style="display: flex;">
+              <span style="white-space: nowrap;">É Castrado?</span>
               <input class="input" type="checkbox"/>
             </div>
-            <div>
-              É Vacinado?
+            <div style="display: flex;">
+              <span style="white-space: nowrap;">É Vacinado?</span>
               <input class="input" type="checkbox"/>
             </div>
           </div>
@@ -91,6 +88,7 @@
 
 
 .input-filee{
+  margin-top: 20px;
   cursor:pointer;
   padding: 10px;
   border-radius: 10px;
@@ -112,14 +110,13 @@
   border-radius: 10px;
   outline: none;
   border: 0.5px solid #ddd;
-  box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.35);
+  box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.15);
 }
 .input-check{
   padding: 15px;
   border-radius: 15px;
   outline: none;
   border: 0.5px solid #ddd;
-  box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.35);
 }
 .btn-cancelar, .btn-salvar{
   padding: 10px;
@@ -167,20 +164,6 @@
       font-weight: bold;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
-    .teste {
-      gap: 1rem;
-      display: flex;
-      font-size: 15px;
-      text-decoration: none;
-      font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    align-items: flex-start;
-    flex-wrap: wrap;
-}
 
-.aaaaaa{
-  display: flex;
-    flex-direction: column;
-}
 </style>
 
