@@ -1,0 +1,17 @@
+C:\Users\mateus.maturana\Documents\Hackathon\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\mateus.maturana\Documents\Hackathon\Infrastructure\obj\Debug\net6.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mateus.maturana\Documents\Hackathon\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\mateus.maturana\Documents\Hackathon\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfo.cs
+C:\Users\mateus.maturana\Documents\Hackathon\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\mateus.maturana\Documents\Hackathon\Infrastructure\bin\Debug\net6.0\Infrastructure.deps.json
+C:\Users\mateus.maturana\Documents\Hackathon\Infrastructure\bin\Debug\net6.0\Infrastructure.runtimeconfig.json
+C:\Users\mateus.maturana\Documents\Hackathon\Infrastructure\bin\Debug\net6.0\Infrastructure.dll
+C:\Users\mateus.maturana\Documents\Hackathon\Infrastructure\bin\Debug\net6.0\Infrastructure.pdb
+C:\Users\mateus.maturana\Documents\Hackathon\Infrastructure\bin\Debug\net6.0\Hackathon.Core.dll
+C:\Users\mateus.maturana\Documents\Hackathon\Infrastructure\bin\Debug\net6.0\Hackathon.Core.pdb
+C:\Users\mateus.maturana\Documents\Hackathon\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CopyComplete
+C:\Users\mateus.maturana\Documents\Hackathon\Infrastructure\obj\Debug\net6.0\Infrastructure.dll
+C:\Users\mateus.maturana\Documents\Hackathon\Infrastructure\obj\Debug\net6.0\refint\Infrastructure.dll
+C:\Users\mateus.maturana\Documents\Hackathon\Infrastructure\obj\Debug\net6.0\Infrastructure.pdb
+C:\Users\mateus.maturana\Documents\Hackathon\Infrastructure\obj\Debug\net6.0\Infrastructure.genruntimeconfig.cache
+C:\Users\mateus.maturana\Documents\Hackathon\Infrastructure\obj\Debug\net6.0\ref\Infrastructure.dll
