@@ -6,83 +6,73 @@
         </div>
         <div class="teste">
           <div>
-            Nome:
+
+            <input placeholder="Nome" class="input"/>
           </div>
-          <input/>
           <div>
-            Sobrenome:
+
+            <input placeholder="Sobrenome" class="input"/>
           </div>
-          <input/>
           <div>
-            RG:
+
+            <input placeholder="RG" class="input" maxlength="9"/>
           </div>
-          <input maxlength="9"/>
           <div>
-            Orgão Emissor:
+            
+            <input placeholder="Orgão Emissor" class="input"/>
           </div>
-          <input/>
           <div>
-            Cpf:
+
+            <input placeholder="Cpf" class="input"/>
           </div>
-          <input/>
           <div>
-            Endereço:
+
+            <input placeholder="Endereço" class="input"/>
           </div>
-          <input/>
           <div>
-            Complemento:
+
+            <input placeholder="Complemento" class="input"/>
           </div>
-          <input/>
           <div>
             <div>
-            Numero:
+
+            <input placeholder="Numero" class="input"/>
           </div>
-          <input type="number"/>
           </div>
             <div>
-            Cidade:
+
+            <input placeholder="Cidade" class="input"/>
           </div>
-          <input/>
             <div>
-            CEP:
+
+            <input placeholder="CEP" class="input"/>
           </div>
-          <input/>
           
         </div>
         <div class="btn">    
-            <button>CANCELAR</button>
-            <button>SALVAR</button>
+            <button class="btn-cancelar">CANCELAR</button>
+            <button class="btn-salvar">SALVAR</button>
         </div>
     </div>
 </template>
 
 <script>
 
-// export default {
-//     data: {
-//         imagem: {
-//             file: null, 
-//             image: null 
-
-//         } 
-//     },
-//     methods: {
-//         onFileChange() {
-//             const reader = new FileReader()
-//             reader.readAsDataURL(this.file)
-//             reader.onload = e => {
-//                 this.image = e.target.result
-//                 console.log(this.image)
-//             }
-//         },
-//     },
-// }
 
 </script>
 
 
 
 <style scoped>
+
+.input {
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 0.5px solid #ddd;
+    box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.35);
+}
+
 .icones{
   font-size: 50px;
 }
@@ -93,6 +83,13 @@
   gap: 1rem;
 }
 
+.btn-cancelar, .btn-salvar{
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: 0.5px solid #ddd;
+  box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.35);
+}
 .radio-btn {
     display: flex;
     flex-direction: column;
@@ -117,6 +114,9 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 .teste {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
     font-size: 15px ;
     text-decoration: none;
   font-weight: bold;
