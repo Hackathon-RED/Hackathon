@@ -1,7 +1,7 @@
 <template>
     <div class="card-cadastro">
-      <i class="fa fa-user-md icones"/>
       <div class="title-cadastro">
+        <i class="fa fa-user-md icones"/>
           CADASTRO DE VETERINÁRIO
         </div>
         <div class="teste">
@@ -87,11 +87,6 @@
   font-size: 50px;
 }
 
-.title-cadastro{
-  padding-bottom: 1rem;
-}
-
-
 .btn{
   margin-top: 1rem;
   display: flex;
@@ -109,11 +104,19 @@
     border-radius: 5px;
     padding: 1rem;
     flex-direction: column;
-    align-items: center;
-
 }
 
-.teste ,.title-cadastro{
+.title-cadastro{
+        padding-bottom: 1rem;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        font-size: 25px ;
+    text-decoration: none;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+.teste {
     font-size: 15px ;
     text-decoration: none;
   font-weight: bold;

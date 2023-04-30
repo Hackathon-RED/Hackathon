@@ -81,9 +81,6 @@
 </script>
 
 <style scoped>
-.title-cadastro{
-  padding-bottom: 1rem;
-}
 
 .icones{
   font-size: 50px;
@@ -111,8 +108,14 @@
 
 }
 
+.title-cadastro{
+        padding-bottom: 1rem;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
 .teste ,.title-cadastro{
-    font-size: 15px ;
+    font-size: 25px ;
     text-decoration: none;
   font-weight: bold;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
