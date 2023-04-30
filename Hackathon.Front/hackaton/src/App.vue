@@ -24,27 +24,31 @@ import 'font-awesome/css/font-awesome.css'
             </svg>
           </div>
         </li>
+        <router-link to="/" class="link">
         <li>
-          <router-link to="/"><i class="fa-solid fa-table-columns icon-dash"></i>Dashboard</router-link>
+          <i class="fa-solid fa-table-columns icon-dash"></i>Dashboard
         </li>
-        <li>
-          <router-link to="/perfil"> <i class="fa-solid fa-user icon-dash"></i>Perfil</router-link>
-        </li>
-        <li>
-          <router-link to="/adocao"><i class="fa-solid fa-hand-holding-heart icon-dash"/>Adoções</router-link>
-        </li>
-        <li>
-          <router-link to="/cadastro-vet"><i class="fa fa-user-md icon-dash"/>Veterinários</router-link>
-        </li>
-        <!-- <li>
-          <router-link to="/cadastro-ong"><i class="fa-solid fa-building-ngo"></i>ONGs</router-link>
-        </li> -->
-        <li>
-          <router-link to="/cadastro-pet"><i class="fa fa-paw icon-dash"/>Pets</router-link>
-        </li>
-        <!-- <li>
-          <router-link to="/cadastro-user"><i class="fa fa-user icon-dash"/>Usuários</router-link>
-        </li> -->
+      </router-link>
+        <router-link to="/perfil" class="link">
+          <li>
+            <i class="fa-solid fa-user icon-dash"></i>Perfil
+          </li>
+        </router-link>
+        <router-link to="/adocao" class="link">
+          <li>
+            <i class="fa-solid fa-hand-holding-heart icon-dash"/>Adoções
+          </li>
+        </router-link>
+        <router-link to="/cadastro-vet" class="link">
+          <li>
+            <i class="fa fa-user-md icon-dash"/>Veterinários
+          </li>
+        </router-link>
+        <router-link to="/cadastro-pet" class="link">
+          <li>
+            <i class="fa fa-paw icon-dash"/>Pets
+          </li>
+        </router-link>
       </ul>
     </div>
     <div style="width: 100%; height: 100%;">
@@ -89,6 +93,10 @@ import 'font-awesome/css/font-awesome.css'
   background-color: white;
 }
 
+.menu ul > a:hover {
+  color:#005438;
+}
+
 .menu ul li:hover a {
   color: #005438;
 }
@@ -112,5 +120,12 @@ import 'font-awesome/css/font-awesome.css'
 
 .menu ul .logo:hover a {
   color: white;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 </style>
