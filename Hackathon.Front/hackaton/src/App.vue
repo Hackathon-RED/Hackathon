@@ -25,8 +25,8 @@ import { RouterView } from 'vue-router'
         </li>
       </ul>
     </div>
-    <div>
-    <router-view></router-view>  
+    <div style="width: 100%; height: 100%;">
+      <router-view></router-view>  
     </div>
   </div>
 </template>
@@ -42,6 +42,7 @@ import { RouterView } from 'vue-router'
   background-color: #005438;
   width: 250px;
   border-radius: 0 15px 15px 0;
+  margin: 0;
 }
 .menu ul li {
   cursor: pointer;
