@@ -1,4 +1,5 @@
 ﻿using Hackathon.Core.Entities;
+using HappyPet.Infrastructure.Data.Repositorys.Common;
 using Infrastructure.Data.Context;
 using Infrastructure.Interfaces;
 using System;

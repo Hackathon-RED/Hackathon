@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Data.Repositorys
+namespace HappyPet.Infrastructure.Data.Repositorys.Common
 {
     public abstract class Repository<T> : IRepository<T> where T : Entity
     {
