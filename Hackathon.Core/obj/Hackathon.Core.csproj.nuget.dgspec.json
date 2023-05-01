@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mateus.maturana\\Documents\\Hackathon\\Hackathon.Core\\Hackathon.Core.csproj": {}
+    "C:\\Users\\leona\\OneDrive\\ANTIGO\\Documentos\\Git\\projects\\Hackathon\\Hackathon.Core\\Hackathon.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mateus.maturana\\Documents\\Hackathon\\Hackathon.Core\\Hackathon.Core.csproj": {
+    "C:\\Users\\leona\\OneDrive\\ANTIGO\\Documentos\\Git\\projects\\Hackathon\\Hackathon.Core\\Hackathon.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mateus.maturana\\Documents\\Hackathon\\Hackathon.Core\\Hackathon.Core.csproj",
+        "projectUniqueName": "C:\\Users\\leona\\OneDrive\\ANTIGO\\Documentos\\Git\\projects\\Hackathon\\Hackathon.Core\\Hackathon.Core.csproj",
         "projectName": "Hackathon.Core",
-        "projectPath": "C:\\Users\\mateus.maturana\\Documents\\Hackathon\\Hackathon.Core\\Hackathon.Core.csproj",
-        "packagesPath": "C:\\Users\\mateus.maturana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mateus.maturana\\Documents\\Hackathon\\Hackathon.Core\\obj\\",
+        "projectPath": "C:\\Users\\leona\\OneDrive\\ANTIGO\\Documentos\\Git\\projects\\Hackathon\\Hackathon.Core\\Hackathon.Core.csproj",
+        "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\leona\\OneDrive\\ANTIGO\\Documentos\\Git\\projects\\Hackathon\\Hackathon.Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\mateus.maturana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\leona\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,9 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\mateus.maturana\\Documents\\GamaASPNet\\G2Solution\\G2.Base.Infrastructure\\Assemblies": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/u8vi7xJw7bbYrWXF5KoT8aGb1ldWgvz1JPZUaoo2dhffJBMjHU/api": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -44,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -60,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
