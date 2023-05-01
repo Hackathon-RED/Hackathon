@@ -6,6 +6,7 @@ using Newtonsoft.Json;
 
 namespace API.Controllers
 {
+    [ApiController]
     public class MidiaController : Controller
     {
         private readonly IMidiaRepository _midiaRepository;
@@ -13,10 +14,6 @@ namespace API.Controllers
         public MidiaController(IMidiaRepository midiaRepository)
         {
             _midiaRepository = midiaRepository;
-        }
-        public IActionResult Index()
-        {
-            return View();
         }
 
         [HttpGet]

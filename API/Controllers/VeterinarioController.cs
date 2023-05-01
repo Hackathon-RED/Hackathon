@@ -6,6 +6,7 @@ using Newtonsoft.Json;
 
 namespace API.Controllers
 {
+    [ApiController]
     public class VeterinarioController : Controller
     {
         private readonly IVeterinarioRepository _veterinarioRepository;
@@ -13,11 +14,6 @@ namespace API.Controllers
         public VeterinarioController(IVeterinarioRepository veterinarioRepository)
         {
             _veterinarioRepository = veterinarioRepository;
-        }
-
-        public IActionResult Index()
-        {
-            return View();
         }
 
         [HttpGet]

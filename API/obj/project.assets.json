@@ -3814,23 +3814,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mateus.maturana\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\leona\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mateus.maturana\\Documents\\Hackathon\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\leona\\OneDrive\\ANTIGO\\Documentos\\Git\\projects\\Hackathon\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\mateus.maturana\\Documents\\Hackathon\\API\\API.csproj",
-      "packagesPath": "C:\\Users\\mateus.maturana\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mateus.maturana\\Documents\\Hackathon\\API\\obj\\",
+      "projectPath": "C:\\Users\\leona\\OneDrive\\ANTIGO\\Documentos\\Git\\projects\\Hackathon\\API\\API.csproj",
+      "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\leona\\OneDrive\\ANTIGO\\Documentos\\Git\\projects\\Hackathon\\API\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\mateus.maturana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\leona\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3838,16 +3834,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Users\\mateus.maturana\\Documents\\GamaASPNet\\G2Solution\\G2.Base.Infrastructure\\Assemblies": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.devexpress.com/u8vi7xJw7bbYrWXF5KoT8aGb1ldWgvz1JPZUaoo2dhffJBMjHU/api": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\mateus.maturana\\Documents\\Hackathon\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\mateus.maturana\\Documents\\Hackathon\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\leona\\OneDrive\\ANTIGO\\Documentos\\Git\\projects\\Hackathon\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\leona\\OneDrive\\ANTIGO\\Documentos\\Git\\projects\\Hackathon\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
@@ -3896,7 +3890,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

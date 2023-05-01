@@ -1,9 +1,4 @@
 <script setup>
-import CadastroPet from './components/views/CadastroPet.vue'
-import CadastroUsuario from './components/views/CadastroUsuario.vue'
-import CadastroOng from './components/views/Perfil.vue'
-import CadastroVet from './components/views/CadastroVet.vue'
-import ListaAdocao from './components/views/ListaAdocao.vue'
 import { RouterView } from 'vue-router'
 import 'font-awesome/css/font-awesome.css'
 

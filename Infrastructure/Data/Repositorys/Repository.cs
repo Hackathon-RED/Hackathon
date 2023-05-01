@@ -1,4 +1,4 @@
-﻿using Hackathon.Core.Common;
+﻿using Hackathon.Core.Entities.Common;
 using Infrastructure.Data.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;

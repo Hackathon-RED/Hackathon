@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Hackathon.Core.Common
+namespace Hackathon.Core.Entities.Common
 {
     public class Entity
     {

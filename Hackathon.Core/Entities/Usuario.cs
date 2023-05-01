@@ -1,4 +1,5 @@
-﻿using Hackathon.Core.Common;
+﻿using Hackathon.Core.Entities.Common;
+using Hackathon.Core.Extensions;
 
 namespace Hackathon.Core.Entities
 {
@@ -6,7 +7,7 @@ namespace Hackathon.Core.Entities
     {
         public string Nome { get; set; }
         public string Sobrenome { get; set; }
-        public string Cpf { get; set; }
+        public CPF Cpf { get; set; }
         public string Rg { get; set; }
         public string ComprovanteResidencia { get; set; }
         public DateTime? DataNascimento { get; set; }

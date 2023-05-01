@@ -1,4 +1,4 @@
-﻿using Hackathon.Core.Common;
+﻿using Hackathon.Core.Entities.Common;
 using Infrastructure.Data.Context;
 using System;
 using System.Collections.Generic;

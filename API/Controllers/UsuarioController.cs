@@ -6,6 +6,7 @@ using Newtonsoft.Json;
 
 namespace API.Controllers
 {
+    [ApiController]
     public class UsuarioController : Controller
     {
         private readonly IUsuarioRepository _usuarioRepository;
@@ -13,10 +14,6 @@ namespace API.Controllers
         public UsuarioController(IUsuarioRepository usuarioRepository)
         {
             _usuarioRepository = usuarioRepository;
-        }
-        public IActionResult Index()
-        {
-            return View();
         }
         [HttpGet]
         public object Get()

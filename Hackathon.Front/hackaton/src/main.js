@@ -1,6 +1,6 @@
 import { createApp } from 'vue' 
 import App from './App.vue'
-import router from './router.js'
+import router from './../router/index.js'
 import { RouterView } from 'vue-router'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
@@ -9,6 +9,7 @@ import '@fortawesome/fontawesome-free/css/fontawesome.css';
 import '@fortawesome/fontawesome-free/css/brands.css';
 import '@fortawesome/fontawesome-free/css/solid.css';
 import '@fortawesome/fontawesome-free/css/all.css';
+import '../src/assets/main.css';
 
 
 const app = createApp(App) 

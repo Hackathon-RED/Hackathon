@@ -1,12 +1,11 @@
 ﻿using Hackathon.Core.Entities;
 using Infrastructure.Data.Interfaces;
-using Infrastructure.Data.Repositorys;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 
 namespace API.Controllers
 {
+    [ApiController]
     public class ONGController : Controller
     {
         private readonly IONGRepository _ONGRepository;
@@ -14,10 +13,6 @@ namespace API.Controllers
         public ONGController(IONGRepository ONGRepository)
         {
             _ONGRepository = ONGRepository;
-        }
-        public IActionResult Index()
-        {
-            return View();
         }
 
         [HttpGet]
