@@ -7,6 +7,7 @@ using Newtonsoft.Json;
 namespace API.Controllers
 {
     [ApiController]
+    [Route("veterinario")]
     public class VeterinarioController : Controller
     {
         private readonly IVeterinarioRepository _veterinarioRepository;
@@ -23,6 +24,8 @@ namespace API.Controllers
         }
 
         [HttpPost]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public IActionResult Post(string values)
         {
             try

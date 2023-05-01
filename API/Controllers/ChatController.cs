@@ -6,6 +6,8 @@ using Newtonsoft.Json;
 
 namespace API.Controllers
 {
+    [ApiController]
+    [Route("chat")]
     public class ChatController : Controller
     {
         private readonly IChatRepository _ChatRepository;

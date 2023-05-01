@@ -6,6 +6,7 @@ using Newtonsoft.Json;
 namespace API.Controllers
 {
     [ApiController]
+    [Route("ong")]
     public class ONGController : Controller
     {
         private readonly IONGRepository _ONGRepository;

@@ -6,6 +6,8 @@ using Newtonsoft.Json;
 
 namespace API.Controllers
 {
+    [ApiController]
+    [Route("adaptacao")]
     public class AdaptacaoController : Controller
     {
         private readonly IAdaptacaoRepository _adaptacaoRepository;

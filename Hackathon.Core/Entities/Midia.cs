@@ -4,6 +4,6 @@ namespace Hackathon.Core.Entities
 {
     public class Midia : Entity
     {
-
+        public string Arquivo { get; set; }
     }
 }

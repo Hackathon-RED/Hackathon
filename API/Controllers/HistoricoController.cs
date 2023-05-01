@@ -1,11 +1,12 @@
 ﻿using Hackathon.Core.Entities;
 using Infrastructure.Data.Interfaces;
-using Infrastructure.Data.Repositorys;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
 namespace API.Controllers
 {
+    [ApiController]
+    [Route("historico")]
     public class HistoricoController : Controller
     {
         private readonly IHistoricoRepository _historicoRepository;

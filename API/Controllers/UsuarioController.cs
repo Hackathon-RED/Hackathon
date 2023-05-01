@@ -7,6 +7,7 @@ using Newtonsoft.Json;
 namespace API.Controllers
 {
     [ApiController]
+    [Route("usuario")]
     public class UsuarioController : Controller
     {
         private readonly IUsuarioRepository _usuarioRepository;

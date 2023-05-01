@@ -6,6 +6,8 @@ using Newtonsoft.Json;
 
 namespace API.Controllers
 {
+    [ApiController]
+    [Route("animal")]
     public class AnimalController : Controller
     {
         private readonly IAnimalRepository _animalRepository;

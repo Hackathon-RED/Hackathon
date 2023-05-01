@@ -28,6 +28,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Users\\leona\\OneDrive\\ANTIGO\\Documentos\\Git\\projects\\Hackathon\\Hackathon.Core\\Hackathon.Core.csproj": {
+                "projectPath": "C:\\Users\\leona\\OneDrive\\ANTIGO\\Documentos\\Git\\projects\\Hackathon\\Hackathon.Core\\Hackathon.Core.csproj"
+              },
               "C:\\Users\\leona\\OneDrive\\ANTIGO\\Documentos\\Git\\projects\\Hackathon\\Infrastructure\\Infrastructure.csproj": {
                 "projectPath": "C:\\Users\\leona\\OneDrive\\ANTIGO\\Documentos\\Git\\projects\\Hackathon\\Infrastructure\\Infrastructure.csproj"
               }

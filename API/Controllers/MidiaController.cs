@@ -7,6 +7,7 @@ using Newtonsoft.Json;
 namespace API.Controllers
 {
     [ApiController]
+    [Route("midia")]
     public class MidiaController : Controller
     {
         private readonly IMidiaRepository _midiaRepository;
