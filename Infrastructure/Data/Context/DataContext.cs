@@ -1,10 +1,5 @@
 ﻿using Hackathon.Core.Entities;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Infrastructure.Data.Context
 {
@@ -15,7 +10,12 @@ namespace Infrastructure.Data.Context
 
         }
 
+        public DbSet<Midia> Midias { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Endereco> Enderecos { get; set; }
         public DbSet<Veterinario> Veterinarios { get; set; }
+        public DbSet<VeterinarioEndereco> VeterinariosEnderecos { get; set; }
+        public DbSet<VeterinarioEspecialidade> VeterinariosEspecialidades { get; set; }
 
     }
 }

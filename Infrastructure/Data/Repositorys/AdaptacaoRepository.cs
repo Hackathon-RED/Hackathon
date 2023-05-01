@@ -1,6 +1,6 @@
 ﻿using Hackathon.Core.Entities;
 using Infrastructure.Data.Context;
-using Infrastructure.Data.Interfaces;
+using Infrastructure.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;

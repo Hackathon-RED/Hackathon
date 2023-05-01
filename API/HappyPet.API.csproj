@@ -16,8 +16,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Hackathon.Core\Hackathon.Core.csproj" />
-    <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
+    <ProjectReference Include="..\Hackathon.Core\HappyPet.Core.csproj" />
+    <ProjectReference Include="..\Infrastructure\HappyPet.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

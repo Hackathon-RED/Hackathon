@@ -1,15 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel;
 
 namespace Hackathon.Core.Enums
 {
     public enum TipoAnimal
     {
-        Cachorro = 0,
-        Gato = 1,
-        Ave = 2,
+        [Description("Herbívoro")]
+        Herbivoro = 0,
+        [Description("Carnívoro")]
+        Carnivoro = 1,
+        [Description("Onívoro")]
+        Onivoro = 2
     }
 }

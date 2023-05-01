@@ -1,6 +1,6 @@
 ﻿using Hackathon.Core.Entities;
-using Infrastructure.Data.Interfaces;
 using Infrastructure.Data.Repositorys;
+using Infrastructure.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 

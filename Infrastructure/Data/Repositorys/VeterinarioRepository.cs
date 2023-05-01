@@ -1,6 +1,6 @@
 ﻿using Hackathon.Core.Entities;
 using Infrastructure.Data.Context;
-using Infrastructure.Data.Interfaces;
+using Infrastructure.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using System;

@@ -1,5 +1,5 @@
 ﻿using Hackathon.Core.Entities.Common;
-using Infrastructure.Data.Interfaces;
+using HappyPet.Infrastructure.Interfaces.Common;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
