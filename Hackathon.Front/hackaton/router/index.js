@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory, createWebHistory } from 'vue-router'
 import CadastroUsuario from './../src/components/views/CadastroUsuario.vue'
 import CadastroPet from './../src/components/views/CadastroPet.vue'
 import CadastroOng from './../src/components/views/CadastroOng.vue'
@@ -8,7 +8,9 @@ import Dashboard from './../src/components/views/Dashboard.vue'
 import Perfil from './../src/components/views/Perfil.vue'
 import 'font-awesome/css/font-awesome.css'
 
-const routes = [
+const router = createRouter({ 
+  history: createWebHashHistory(import.meta.env.BASE_URL),
+  routes: [
   {
     path: '/',
     name: 'Dashboard',
@@ -44,11 +46,6 @@ const routes = [
     name: 'cadastro-user',
     component: CadastroUsuario
   }
-]
-
-const router = createRouter({
-  history: createWebHistory(),
-  routes
-})
+]})
 
 export default router

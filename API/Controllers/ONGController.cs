@@ -17,12 +17,14 @@ namespace API.Controllers
         }
 
         [HttpGet]
+        [Route("/ong/buscar")]
         public object Get()
         {
             return _ONGRepository.GetAll();
         }
 
         [HttpPost]
+        [Route("/ong/inserir")]
         public IActionResult Post(string values)
         {
             try
@@ -39,6 +41,7 @@ namespace API.Controllers
         }
 
         [HttpPut]
+        [Route("/ong/atualizar/:id")]
         public IActionResult Put(Guid Key, string values)
         {
 
@@ -59,6 +62,7 @@ namespace API.Controllers
         }
 
         [HttpDelete]
+        [Route("/ong/deletar")]
         public IActionResult Delete(Guid Key)
         {
             var ong = _ONGRepository.GetById(Key);

@@ -1,5 +1,4 @@
 ﻿using Hackathon.Core.Entities;
-using Infrastructure.Data.Repositorys;
 using Infrastructure.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
@@ -18,6 +17,7 @@ namespace API.Controllers
         }
 
         [HttpGet]
+        [Route("/veterinario/buscar")]
         public object Get()
         {
             return _veterinarioRepository.GetAll();
@@ -26,6 +26,7 @@ namespace API.Controllers
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [Route("/veterinario/inserir")]
         public IActionResult Post(string values)
         {
             try
@@ -42,6 +43,7 @@ namespace API.Controllers
         }
 
         [HttpPut]
+        [Route("/veterinario/atualizar/:id")]
         public IActionResult Put(Guid Key, string values)
         {
 
@@ -62,6 +64,7 @@ namespace API.Controllers
         }
 
         [HttpDelete]
+        [Route("/veterinario/deletar")]
         public IActionResult Delete(Guid Key)
         {
             var veterinario = _veterinarioRepository.GetById(Key);

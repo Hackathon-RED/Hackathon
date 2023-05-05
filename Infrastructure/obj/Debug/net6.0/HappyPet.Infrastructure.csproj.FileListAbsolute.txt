@@ -1,0 +1,15 @@
+C:\Users\leona\OneDrive\ANTIGO\Documentos\Git\projects\Hackathon\Infrastructure\bin\Debug\net6.0\HappyPet.Infrastructure.deps.json
+C:\Users\leona\OneDrive\ANTIGO\Documentos\Git\projects\Hackathon\Infrastructure\bin\Debug\net6.0\HappyPet.Infrastructure.dll
+C:\Users\leona\OneDrive\ANTIGO\Documentos\Git\projects\Hackathon\Infrastructure\bin\Debug\net6.0\HappyPet.Infrastructure.pdb
+C:\Users\leona\OneDrive\ANTIGO\Documentos\Git\projects\Hackathon\Infrastructure\bin\Debug\net6.0\HappyPet.Core.dll
+C:\Users\leona\OneDrive\ANTIGO\Documentos\Git\projects\Hackathon\Infrastructure\bin\Debug\net6.0\HappyPet.Core.pdb
+C:\Users\leona\OneDrive\ANTIGO\Documentos\Git\projects\Hackathon\Infrastructure\obj\Debug\net6.0\HappyPet.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\leona\OneDrive\ANTIGO\Documentos\Git\projects\Hackathon\Infrastructure\obj\Debug\net6.0\HappyPet.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leona\OneDrive\ANTIGO\Documentos\Git\projects\Hackathon\Infrastructure\obj\Debug\net6.0\HappyPet.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\leona\OneDrive\ANTIGO\Documentos\Git\projects\Hackathon\Infrastructure\obj\Debug\net6.0\HappyPet.Infrastructure.AssemblyInfo.cs
+C:\Users\leona\OneDrive\ANTIGO\Documentos\Git\projects\Hackathon\Infrastructure\obj\Debug\net6.0\HappyPet.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\leona\OneDrive\ANTIGO\Documentos\Git\projects\Hackathon\Infrastructure\obj\Debug\net6.0\HappyPet.Infrastructure.csproj.CopyComplete
+C:\Users\leona\OneDrive\ANTIGO\Documentos\Git\projects\Hackathon\Infrastructure\obj\Debug\net6.0\HappyPet.Infrastructure.dll
+C:\Users\leona\OneDrive\ANTIGO\Documentos\Git\projects\Hackathon\Infrastructure\obj\Debug\net6.0\refint\HappyPet.Infrastructure.dll
+C:\Users\leona\OneDrive\ANTIGO\Documentos\Git\projects\Hackathon\Infrastructure\obj\Debug\net6.0\HappyPet.Infrastructure.pdb
+C:\Users\leona\OneDrive\ANTIGO\Documentos\Git\projects\Hackathon\Infrastructure\obj\Debug\net6.0\ref\HappyPet.Infrastructure.dll

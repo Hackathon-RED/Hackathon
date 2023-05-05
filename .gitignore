@@ -1,1 +1,6 @@
 *.vsidx
+*.cache
+*.cache
+*.txt
+*.1
+.vs/HappyPet/v17/.suo

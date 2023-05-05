@@ -15,18 +15,16 @@ namespace API.Controllers
         {
             _historicoRepository = historicoRepository;
         }
-        public IActionResult Index()
-        {
-            return View();
-        }
 
         [HttpGet]
+        [Route("/historico/buscar")]
         public object Get()
         {
             return _historicoRepository.GetAll();
         }
 
         [HttpPost]
+        [Route("/historico/inserir")]
         public IActionResult Post(string values)
         {
             try
@@ -43,6 +41,7 @@ namespace API.Controllers
         }
 
         [HttpPut]
+        [Route("/historico/atualizar/:id")]
         public IActionResult Put(Guid Key, string values)
         {
 
@@ -63,6 +62,7 @@ namespace API.Controllers
         }
 
         [HttpDelete]
+        [Route("/historico/deletar")]
         public IActionResult Delete(Guid Key)
         {
             var historico = _historicoRepository.GetById(Key);

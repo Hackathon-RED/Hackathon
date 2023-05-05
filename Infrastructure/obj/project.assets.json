@@ -602,6 +602,19 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Collections.Immutable/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -929,7 +942,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5"
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.15"
         },
         "compile": {
           "bin/placeholder/HappyPet.Core.dll": {}
@@ -1812,6 +1825,36 @@
         "version.txt"
       ]
     },
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
     "System.Collections.Immutable/6.0.0": {
       "sha512": "l4zZJ1WU2hqpQQHXz1rvC3etVZN+2DLmQMO79FhOTZHMn8tDRr+WU287sbomD0BETlmKDn0ygUgVy9k5xkkJdA==",
       "type": "package",
@@ -2412,7 +2455,8 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.15",
       "Microsoft.Extensions.Configuration.EnvironmentVariables >= 6.0.1",
       "Microsoft.Extensions.Configuration.FileExtensions >= 6.0.1",
-      "Microsoft.Extensions.Configuration.Json >= 6.0.1"
+      "Microsoft.Extensions.Configuration.Json >= 6.0.1",
+      "Newtonsoft.Json >= 13.0.3"
     ]
   },
   "packageFolders": {
@@ -2481,6 +2525,10 @@
           "Microsoft.Extensions.Configuration.Json": {
             "target": "Package",
             "version": "[6.0.1, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.3, )"
           }
         },
         "imports": [
@@ -2520,15 +2568,6 @@
       "warningLevel": 1,
       "message": "HappyPet.Infrastructure depends on Microsoft.Extensions.Configuration.Json (>= 6.0.1) but Microsoft.Extensions.Configuration.Json 6.0.1 was not found. An approximate best match of Microsoft.Extensions.Configuration.Json 7.0.0 was resolved.",
       "libraryId": "Microsoft.Extensions.Configuration.Json",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: Microsoft.EntityFrameworkCore.SqlServer from 7.0.5 to 6.0.15. Reference the package directly from the project to select a different version. \r\n HappyPet.Infrastructure -> HappyPet.Core -> Microsoft.EntityFrameworkCore.SqlServer (>= 7.0.5) \r\n HappyPet.Infrastructure -> Microsoft.EntityFrameworkCore.SqlServer (>= 6.0.15)",
-      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer",
       "targetGraphs": [
         "net6.0"
       ]

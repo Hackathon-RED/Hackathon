@@ -18,12 +18,14 @@ namespace API.Controllers
         }
 
         [HttpGet]
+        [Route("/midia/buscar")]
         public object Get()
         {
             return _midiaRepository.GetAll();
         }
 
         [HttpPost]
+        [Route("/midia/inserir")]
         public IActionResult Post(string values)
         {
             try
@@ -40,6 +42,7 @@ namespace API.Controllers
         }
 
         [HttpPut]
+        [Route("/midia/atualizar/:id")]
         public IActionResult Put(Guid Key, string values)
         {
 
@@ -60,6 +63,7 @@ namespace API.Controllers
         }
 
         [HttpDelete]
+        [Route("/midia/deletar")]
         public IActionResult Delete(Guid Key)
         {
             var midia = _midiaRepository.GetById(Key);

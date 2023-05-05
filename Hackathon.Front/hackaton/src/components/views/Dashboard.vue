@@ -136,7 +136,7 @@
                                 <div style="max-width: 100px; display: flex; justify-content: center; align-items: center;">
                                     <i style="font-size: 1.5em;" class="fas fa-user"></i>    
                                 </div>
-                                <div style="margin-left: 15px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                                <div style="margin-left: 15px;">
                                     <h4 style="margin: 0;">Maurício da Silva</h4>
                                     <small>Doação</small>
                                 </div>
@@ -152,7 +152,7 @@
                                 <div style="max-width: 100px; display: flex; justify-content: center; align-items: center;">
                                     <i style="font-size: 1.5em;" class="fas fa-user"></i>    
                                 </div>
-                                <div style="margin-left: 15px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                                <div style="margin-left: 15px;">
                                     <h4 style="margin: 0;">Joaquina de Deus</h4>
                                     <small>Doação</small>
                                 </div>
@@ -168,7 +168,7 @@
                                 <div style="max-width: 100px; display: flex; justify-content: center; align-items: center;">
                                     <i style="font-size: 1.5em;" class="fas fa-user"></i>    
                                 </div>
-                                <div style="margin-left: 15px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                                <div style="margin-left: 15px;">
                                     <h4 style="margin: 0;">Mauro Makao</h4>
                                     <small>Doação</small>
                                 </div>
@@ -184,7 +184,7 @@
                                 <div style="max-width: 100px; display: flex; justify-content: center; align-items: center;">
                                     <i style="font-size: 1.5em;" class="fas fa-user"></i>    
                                 </div>
-                                <div style="margin-left: 15px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                                <div style="margin-left: 15px;">
                                     <h4 style="margin: 0;">Come e Lambe LTDA</h4>
                                     <small>Pagamento Ração</small>
                                 </div>
@@ -200,7 +200,7 @@
                                 <div style="max-width: 100px; display: flex; justify-content: center; align-items: center;">
                                     <i style="font-size: 1.5em;" class="fas fa-user"></i>    
                                 </div>
-                                <div style="margin-left: 15px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                                <div style="margin-left: 15px; ">
                                     <h4 style="margin: 0;">Fernanda de Sá</h4>
                                     <small>Doação</small>
                                 </div>
@@ -252,7 +252,6 @@
 
 .card h3 {
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .lista-solicitacoes {
@@ -267,14 +266,6 @@
 .lista-solicitacoes ul li {
     list-style: none;
     margin-bottom: 15px;
-}
-
-.lista-solicitacoes ul li h5 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.lista-solicitacoes ul li p, .lista-solicitacoes ul li span {
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .card-title { 
@@ -293,10 +284,6 @@
     margin: 0;
 }
 
-p, span {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
-  }
-
 #nav {
     height: 100% !important;
 }
@@ -304,9 +291,19 @@ p, span {
 </style>
 
 <script>
-import BarChart from './../BarGraph.vue'
-import PieChart from './../PieGraph.vue'
+import BarChart from './../graphs/BarGraph.vue'
+import PieChart from './../graphs/PieGraph.vue'
+import InputForm from './../form/InputForm.vue'
 export default {
-  components: { BarChart, PieChart }
+  components: { 
+    BarChart,
+    PieChart,
+    InputForm 
+},
+  data() {
+    return {
+      inputValue: ""
+    };
+  }
 }
 </script>

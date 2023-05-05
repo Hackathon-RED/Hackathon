@@ -17,12 +17,14 @@ namespace API.Controllers
             _usuarioRepository = usuarioRepository;
         }
         [HttpGet]
+        [Route("/usuario/buscar")]
         public object Get()
         {
             return _usuarioRepository.GetAll();
         }
 
         [HttpPost]
+        [Route("/usuario/inserir")]
         public IActionResult Post(string values)
         {
             try
@@ -39,6 +41,7 @@ namespace API.Controllers
         }
 
         [HttpPut]
+        [Route("/usuario/atualizar/:id")]
         public IActionResult Put(Guid Key, string values)
         {
 
@@ -59,6 +62,7 @@ namespace API.Controllers
         }
 
         [HttpDelete]
+        [Route("/usuario/deletar")]
         public IActionResult Delete(Guid Key)
         {
             var usuario = _usuarioRepository.GetById(Key);

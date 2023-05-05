@@ -16,7 +16,13 @@ namespace HappyPet.Infrastructure.Data.Configuration
             });
 
             // Adicionar aqui outras configurações dos repositórios, se houver
+            services.AddScoped<IUsuarioRepository>(provider => (IUsuarioRepository)provider.GetService<DataContext>());
             services.AddScoped<IVeterinarioRepository>(provider => (IVeterinarioRepository)provider.GetService<DataContext>());
+            services.AddScoped<IMidiaRepository>(provider => (IMidiaRepository)provider.GetService<DataContext>());
+            services.AddScoped<IChatRepository>(provider => (IChatRepository)provider.GetService<DataContext>());
+            services.AddScoped<IAnimalRepository>(provider => (IAnimalRepository)provider.GetService<DataContext>());
+            services.AddScoped<IHistoricoRepository>(provider => (IHistoricoRepository)provider.GetService<DataContext>());
+            services.AddScoped<IAdaptacaoRepository>(provider => (IAdaptacaoRepository)provider.GetService<DataContext>());
         }
     }
 }

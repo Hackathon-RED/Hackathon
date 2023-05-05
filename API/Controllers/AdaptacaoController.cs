@@ -16,18 +16,16 @@ namespace API.Controllers
         {
             _adaptacaoRepository = adaptacaoRepository;
         }
-        public IActionResult Index()
-        {
-            return View();
-        }
 
         [HttpGet]
+        [Route("/adaptacao/buscar")]
         public object Get()
         {
             return _adaptacaoRepository.GetAll();
         }
 
         [HttpPost]
+        [Route("/adaptacao/inserir")]
         public IActionResult Post(string values)
         {
             try
@@ -44,6 +42,7 @@ namespace API.Controllers
         }
 
         [HttpPut]
+        [Route("/adaptacao/atualizar/:id")]
         public IActionResult Put(Guid Key, string values)
         {
 
@@ -64,6 +63,7 @@ namespace API.Controllers
         }
 
         [HttpDelete]
+        [Route("/adaptacao/deletar")]
         public IActionResult Delete(Guid Key)
         {
             var adaptacao = _adaptacaoRepository.GetById(Key);
