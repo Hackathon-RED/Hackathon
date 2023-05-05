@@ -3,3 +3,10 @@
 *.cache
 *.editorconfig
 *.cs
+*.cache
+*.vsidx
+*.v2
+*.ps1
+*.vsidx
+*.svg
+*.cache
